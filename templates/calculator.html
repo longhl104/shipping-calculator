@@ -90,6 +90,9 @@
   </div>
 </form>
 
+<!-- ====================================== -->
+<!-- SCRIPTS -->
+<!-- ====================================== -->
 <!-- add item script -->
 <script>
   $(document).ready(function () {
@@ -103,6 +106,7 @@
         );
         $("#item").val("");
       }
+      $("#item").focus();
     });
   });
 </script>
@@ -114,18 +118,6 @@
       $("#add-item").click();
     }
     event.stopPropagation();
-  });
-</script>
-<script>
-  $("form input").keypress(function (e) {
-    if (e.keyCode == 13) {
-      var inputs = $(this).parents("form").eq(0).find(":input");
-      if (inputs[inputs.index(this) + 1] != null) {
-        inputs[inputs.index(this) + 1].focus();
-      }
-      e.preventDefault();
-      return false;
-    }
   });
 </script>
 <!-- kg input script -->
