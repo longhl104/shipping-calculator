@@ -1,0 +1,3664 @@
+{
+    "data": [
+        {
+            "suburb": "Abbotsbury",
+            "dist": 16
+        },
+        {
+            "suburb": "Abbotsford",
+            "dist": 11
+        },
+        {
+            "suburb": "Acacia Gardens",
+            "dist": 23
+        },
+        {
+            "suburb": "Agnes Banks",
+            "dist": 45
+        },
+        {
+            "suburb": "Airds",
+            "dist": 25
+        },
+        {
+            "suburb": "Alexandria",
+            "dist": 14
+        },
+        {
+            "suburb": "Alfords Point",
+            "dist": 7
+        },
+        {
+            "suburb": "Alison",
+            "dist": 79
+        },
+        {
+            "suburb": "Allambie Heights",
+            "dist": 26
+        },
+        {
+            "suburb": "Allawah",
+            "dist": 9
+        },
+        {
+            "suburb": "Ambarvale",
+            "dist": 28
+        },
+        {
+            "suburb": "Annandale",
+            "dist": 13
+        },
+        {
+            "suburb": "Annangrove",
+            "dist": 30
+        },
+        {
+            "suburb": "Appin",
+            "dist": 38
+        },
+        {
+            "suburb": "Arcadia",
+            "dist": 34
+        },
+        {
+            "suburb": "Arncliffe",
+            "dist": 10
+        },
+        {
+            "suburb": "Arndell Park",
+            "dist": 19
+        },
+        {
+            "suburb": "Artarmon",
+            "dist": 18
+        },
+        {
+            "suburb": "Ashbury",
+            "dist": 8
+        },
+        {
+            "suburb": "Ashcroft",
+            "dist": 12
+        },
+        {
+            "suburb": "Ashfield",
+            "dist": 9
+        },
+        {
+            "suburb": "Asquith",
+            "dist": 27
+        },
+        {
+            "suburb": "Auburn",
+            "dist": 6
+        },
+        {
+            "suburb": "Austral",
+            "dist": 20
+        },
+        {
+            "suburb": "Avalon Beach",
+            "dist": 42
+        },
+        {
+            "suburb": "Avoca Beach",
+            "dist": 62
+        },
+        {
+            "suburb": "Badgerys Creek",
+            "dist": 26
+        },
+        {
+            "suburb": "Balgowlah",
+            "dist": 25
+        },
+        {
+            "suburb": "Balgowlah Heights",
+            "dist": 24
+        },
+        {
+            "suburb": "Balmain",
+            "dist": 15
+        },
+        {
+            "suburb": "Balmain East",
+            "dist": 16
+        },
+        {
+            "suburb": "Bangor",
+            "dist": 10
+        },
+        {
+            "suburb": "Banksia",
+            "dist": 10
+        },
+        {
+            "suburb": "Banksmeadow",
+            "dist": 17
+        },
+        {
+            "suburb": "Bankstown",
+            "dist": 0
+        },
+        {
+            "suburb": "Bankstown Aerodrome",
+            "dist": 3
+        },
+        {
+            "suburb": "Bar Point",
+            "dist": 48
+        },
+        {
+            "suburb": "Barangaroo",
+            "dist": 17
+        },
+        {
+            "suburb": "Barden Ridge",
+            "dist": 13
+        },
+        {
+            "suburb": "Bardia",
+            "dist": 16
+        },
+        {
+            "suburb": "Bardwell Park",
+            "dist": 8
+        },
+        {
+            "suburb": "Bardwell Valley",
+            "dist": 9
+        },
+        {
+            "suburb": "Bass Hill",
+            "dist": 4
+        },
+        {
+            "suburb": "Bateau Bay",
+            "dist": 72
+        },
+        {
+            "suburb": "Baulkham Hills",
+            "dist": 19
+        },
+        {
+            "suburb": "Bayview",
+            "dist": 37
+        },
+        {
+            "suburb": "Beacon Hill",
+            "dist": 28
+        },
+        {
+            "suburb": "Beaconsfield",
+            "dist": 15
+        },
+        {
+            "suburb": "Beaumont Hills",
+            "dist": 26
+        },
+        {
+            "suburb": "Beecroft",
+            "dist": 18
+        },
+        {
+            "suburb": "Belfield",
+            "dist": 5
+        },
+        {
+            "suburb": "Belimbla Park",
+            "dist": 48
+        },
+        {
+            "suburb": "Bell",
+            "dist": 81
+        },
+        {
+            "suburb": "Bella Vista",
+            "dist": 20
+        },
+        {
+            "suburb": "Bellevue Hill",
+            "dist": 21
+        },
+        {
+            "suburb": "Belmore",
+            "dist": 5
+        },
+        {
+            "suburb": "Belrose",
+            "dist": 27
+        },
+        {
+            "suburb": "Bensville",
+            "dist": 57
+        },
+        {
+            "suburb": "Berala",
+            "dist": 5
+        },
+        {
+            "suburb": "Berambing",
+            "dist": 68
+        },
+        {
+            "suburb": "Berkeley Vale",
+            "dist": 74
+        },
+        {
+            "suburb": "Berkshire Park",
+            "dist": 36
+        },
+        {
+            "suburb": "Berowra",
+            "dist": 34
+        },
+        {
+            "suburb": "Berowra Creek",
+            "dist": 42
+        },
+        {
+            "suburb": "Berowra Heights",
+            "dist": 36
+        },
+        {
+            "suburb": "Berowra Waters",
+            "dist": 36
+        },
+        {
+            "suburb": "Berrilee",
+            "dist": 35
+        },
+        {
+            "suburb": "Beverley Park",
+            "dist": 11
+        },
+        {
+            "suburb": "Beverly Hills",
+            "dist": 5
+        },
+        {
+            "suburb": "Bexley",
+            "dist": 8
+        },
+        {
+            "suburb": "Bexley North",
+            "dist": 8
+        },
+        {
+            "suburb": "Bidwill",
+            "dist": 28
+        },
+        {
+            "suburb": "Bilgola Beach",
+            "dist": 41
+        },
+        {
+            "suburb": "Bilgola Plateau",
+            "dist": 40
+        },
+        {
+            "suburb": "Bilpin",
+            "dist": 68
+        },
+        {
+            "suburb": "Birchgrove",
+            "dist": 15
+        },
+        {
+            "suburb": "Birrong",
+            "dist": 3
+        },
+        {
+            "suburb": "Blackett",
+            "dist": 28
+        },
+        {
+            "suburb": "Blackheath",
+            "dist": 75
+        },
+        {
+            "suburb": "Blacktown",
+            "dist": 19
+        },
+        {
+            "suburb": "Blackwall",
+            "dist": 54
+        },
+        {
+            "suburb": "Blair Athol",
+            "dist": 26
+        },
+        {
+            "suburb": "Blairmount",
+            "dist": 26
+        },
+        {
+            "suburb": "Blakehurst",
+            "dist": 10
+        },
+        {
+            "suburb": "Blaxland",
+            "dist": 42
+        },
+        {
+            "suburb": "Blaxlands Ridge",
+            "dist": 54
+        },
+        {
+            "suburb": "Bligh Park",
+            "dist": 37
+        },
+        {
+            "suburb": "Blue Bay",
+            "dist": 76
+        },
+        {
+            "suburb": "Blue Haven",
+            "dist": 90
+        },
+        {
+            "suburb": "Blue Mountains National Park",
+            "dist": 65
+        },
+        {
+            "suburb": "Bondi",
+            "dist": 21
+        },
+        {
+            "suburb": "Bondi Beach",
+            "dist": 22
+        },
+        {
+            "suburb": "Bondi Junction",
+            "dist": 20
+        },
+        {
+            "suburb": "Bonnet Bay",
+            "dist": 10
+        },
+        {
+            "suburb": "Bonnyrigg",
+            "dist": 13
+        },
+        {
+            "suburb": "Bonnyrigg Heights",
+            "dist": 15
+        },
+        {
+            "suburb": "Booker Bay",
+            "dist": 53
+        },
+        {
+            "suburb": "Bossley Park",
+            "dist": 15
+        },
+        {
+            "suburb": "Botany",
+            "dist": 15
+        },
+        {
+            "suburb": "Bouddi",
+            "dist": 56
+        },
+        {
+            "suburb": "Bow Bowing",
+            "dist": 20
+        },
+        {
+            "suburb": "Bowen Mountain",
+            "dist": 53
+        },
+        {
+            "suburb": "Box Head",
+            "dist": 51
+        },
+        {
+            "suburb": "Box Hill",
+            "dist": 33
+        },
+        {
+            "suburb": "Bradbury",
+            "dist": 26
+        },
+        {
+            "suburb": "Breakfast Point",
+            "dist": 11
+        },
+        {
+            "suburb": "Brighton-le-Sands",
+            "dist": 12
+        },
+        {
+            "suburb": "Bringelly",
+            "dist": 28
+        },
+        {
+            "suburb": "Bronte",
+            "dist": 21
+        },
+        {
+            "suburb": "Brooklyn",
+            "dist": 40
+        },
+        {
+            "suburb": "Brookvale",
+            "dist": 28
+        },
+        {
+            "suburb": "Brownlow Hill",
+            "dist": 37
+        },
+        {
+            "suburb": "Budgewoi",
+            "dist": 90
+        },
+        {
+            "suburb": "Budgewoi Peninsula",
+            "dist": 93
+        },
+        {
+            "suburb": "Buff Point",
+            "dist": 90
+        },
+        {
+            "suburb": "Bullaburra",
+            "dist": 60
+        },
+        {
+            "suburb": "Bundeena",
+            "dist": 21
+        },
+        {
+            "suburb": "Bungarribee",
+            "dist": 21
+        },
+        {
+            "suburb": "Burraneer",
+            "dist": 18
+        },
+        {
+            "suburb": "Burwood",
+            "dist": 8
+        },
+        {
+            "suburb": "Burwood Heights",
+            "dist": 7
+        },
+        {
+            "suburb": "Busby",
+            "dist": 13
+        },
+        {
+            "suburb": "Bushells Ridge",
+            "dist": 89
+        },
+        {
+            "suburb": "Buxton",
+            "dist": 58
+        },
+        {
+            "suburb": "Cabarita",
+            "dist": 11
+        },
+        {
+            "suburb": "Cabramatta",
+            "dist": 9
+        },
+        {
+            "suburb": "Cabramatta West",
+            "dist": 11
+        },
+        {
+            "suburb": "Caddens",
+            "dist": 32
+        },
+        {
+            "suburb": "Calga",
+            "dist": 59
+        },
+        {
+            "suburb": "Cambridge Gardens",
+            "dist": 35
+        },
+        {
+            "suburb": "Cambridge Park",
+            "dist": 33
+        },
+        {
+            "suburb": "Camden",
+            "dist": 34
+        },
+        {
+            "suburb": "Camden Park",
+            "dist": 34
+        },
+        {
+            "suburb": "Camden South",
+            "dist": 35
+        },
+        {
+            "suburb": "Camellia",
+            "dist": 11
+        },
+        {
+            "suburb": "Cammeray",
+            "dist": 20
+        },
+        {
+            "suburb": "Campbelltown",
+            "dist": 26
+        },
+        {
+            "suburb": "Camperdown",
+            "dist": 14
+        },
+        {
+            "suburb": "Campsie",
+            "dist": 6
+        },
+        {
+            "suburb": "Canada Bay",
+            "dist": 9
+        },
+        {
+            "suburb": "Canley Heights",
+            "dist": 10
+        },
+        {
+            "suburb": "Canley Vale",
+            "dist": 8
+        },
+        {
+            "suburb": "Canoelands",
+            "dist": 46
+        },
+        {
+            "suburb": "Canterbury",
+            "dist": 7
+        },
+        {
+            "suburb": "Canton Beach",
+            "dist": 86
+        },
+        {
+            "suburb": "Caringbah",
+            "dist": 15
+        },
+        {
+            "suburb": "Caringbah South",
+            "dist": 16
+        },
+        {
+            "suburb": "Carlingford",
+            "dist": 16
+        },
+        {
+            "suburb": "Carlton",
+            "dist": 10
+        },
+        {
+            "suburb": "Carnes Hill",
+            "dist": 16
+        },
+        {
+            "suburb": "Carramar",
+            "dist": 7
+        },
+        {
+            "suburb": "Carss Park",
+            "dist": 10
+        },
+        {
+            "suburb": "Cartwright",
+            "dist": 13
+        },
+        {
+            "suburb": "Castle Cove",
+            "dist": 22
+        },
+        {
+            "suburb": "Castle Hill",
+            "dist": 21
+        },
+        {
+            "suburb": "Castlecrag",
+            "dist": 21
+        },
+        {
+            "suburb": "Castlereagh",
+            "dist": 41
+        },
+        {
+            "suburb": "Casula",
+            "dist": 12
+        },
+        {
+            "suburb": "Catherine Field",
+            "dist": 25
+        },
+        {
+            "suburb": "Cattai",
+            "dist": 43
+        },
+        {
+            "suburb": "Cawdor",
+            "dist": 38
+        },
+        {
+            "suburb": "Cecil Hills",
+            "dist": 17
+        },
+        {
+            "suburb": "Cecil Park",
+            "dist": 18
+        },
+        {
+            "suburb": "Cedar Brush Creek",
+            "dist": 86
+        },
+        {
+            "suburb": "Centennial Park",
+            "dist": 18
+        },
+        {
+            "suburb": "Central Colo",
+            "dist": 60
+        },
+        {
+            "suburb": "Central Macdonald",
+            "dist": 65
+        },
+        {
+            "suburb": "Central Mangrove",
+            "dist": 73
+        },
+        {
+            "suburb": "Chain Valley Bay",
+            "dist": 97
+        },
+        {
+            "suburb": "Charmhaven",
+            "dist": 88
+        },
+        {
+            "suburb": "Chatswood",
+            "dist": 19
+        },
+        {
+            "suburb": "Chatswood West",
+            "dist": 18
+        },
+        {
+            "suburb": "Cheero Point",
+            "dist": 47
+        },
+        {
+            "suburb": "Cheltenham",
+            "dist": 18
+        },
+        {
+            "suburb": "Cherrybrook",
+            "dist": 22
+        },
+        {
+            "suburb": "Chester Hill",
+            "dist": 5
+        },
+        {
+            "suburb": "Chifley",
+            "dist": 20
+        },
+        {
+            "suburb": "Chippendale",
+            "dist": 16
+        },
+        {
+            "suburb": "Chipping Norton",
+            "dist": 6
+        },
+        {
+            "suburb": "Chiswick",
+            "dist": 12
+        },
+        {
+            "suburb": "Chittaway Bay",
+            "dist": 76
+        },
+        {
+            "suburb": "Chittaway Point",
+            "dist": 76
+        },
+        {
+            "suburb": "Chullora",
+            "dist": 3
+        },
+        {
+            "suburb": "Church Point",
+            "dist": 37
+        },
+        {
+            "suburb": "Claremont Meadows",
+            "dist": 30
+        },
+        {
+            "suburb": "Clarendon",
+            "dist": 40
+        },
+        {
+            "suburb": "Clareville",
+            "dist": 40
+        },
+        {
+            "suburb": "Claymore",
+            "dist": 24
+        },
+        {
+            "suburb": "Clemton Park",
+            "dist": 6
+        },
+        {
+            "suburb": "Clontarf",
+            "dist": 24
+        },
+        {
+            "suburb": "Clovelly",
+            "dist": 21
+        },
+        {
+            "suburb": "Clyde",
+            "dist": 9
+        },
+        {
+            "suburb": "Coasters Retreat",
+            "dist": 42
+        },
+        {
+            "suburb": "Cobbitty",
+            "dist": 33
+        },
+        {
+            "suburb": "Cogra Bay",
+            "dist": 47
+        },
+        {
+            "suburb": "Colebee",
+            "dist": 26
+        },
+        {
+            "suburb": "Collaroy",
+            "dist": 32
+        },
+        {
+            "suburb": "Collaroy Plateau",
+            "dist": 31
+        },
+        {
+            "suburb": "Colo",
+            "dist": 59
+        },
+        {
+            "suburb": "Colo Heights",
+            "dist": 76
+        },
+        {
+            "suburb": "Colongra",
+            "dist": 92
+        },
+        {
+            "suburb": "Colyton",
+            "dist": 26
+        },
+        {
+            "suburb": "Como",
+            "dist": 9
+        },
+        {
+            "suburb": "Concord",
+            "dist": 9
+        },
+        {
+            "suburb": "Concord West",
+            "dist": 10
+        },
+        {
+            "suburb": "Condell Park",
+            "dist": 2
+        },
+        {
+            "suburb": "Connells Point",
+            "dist": 9
+        },
+        {
+            "suburb": "Constitution Hill",
+            "dist": 15
+        },
+        {
+            "suburb": "Coogee",
+            "dist": 20
+        },
+        {
+            "suburb": "Copacabana",
+            "dist": 60
+        },
+        {
+            "suburb": "Cornwallis",
+            "dist": 42
+        },
+        {
+            "suburb": "Cottage Point",
+            "dist": 37
+        },
+        {
+            "suburb": "Couridjah",
+            "dist": 56
+        },
+        {
+            "suburb": "Cowan",
+            "dist": 40
+        },
+        {
+            "suburb": "Cranebrook",
+            "dist": 38
+        },
+        {
+            "suburb": "Crangan Bay",
+            "dist": 98
+        },
+        {
+            "suburb": "Cremorne",
+            "dist": 20
+        },
+        {
+            "suburb": "Cremorne Point",
+            "dist": 20
+        },
+        {
+            "suburb": "Cromer",
+            "dist": 30
+        },
+        {
+            "suburb": "Cronulla",
+            "dist": 18
+        },
+        {
+            "suburb": "Crows Nest",
+            "dist": 19
+        },
+        {
+            "suburb": "Croydon",
+            "dist": 9
+        },
+        {
+            "suburb": "Croydon Park",
+            "dist": 7
+        },
+        {
+            "suburb": "Cumberland Reach",
+            "dist": 52
+        },
+        {
+            "suburb": "Curl Curl",
+            "dist": 29
+        },
+        {
+            "suburb": "Currans Hill",
+            "dist": 27
+        },
+        {
+            "suburb": "Daceyville",
+            "dist": 17
+        },
+        {
+            "suburb": "Daleys Point",
+            "dist": 55
+        },
+        {
+            "suburb": "Dangar Island",
+            "dist": 46
+        },
+        {
+            "suburb": "Darling Point",
+            "dist": 19
+        },
+        {
+            "suburb": "Darlinghurst",
+            "dist": 18
+        },
+        {
+            "suburb": "Darlington",
+            "dist": 15
+        },
+        {
+            "suburb": "Davidson",
+            "dist": 24
+        },
+        {
+            "suburb": "Davistown",
+            "dist": 57
+        },
+        {
+            "suburb": "Dawes Point",
+            "dist": 17
+        },
+        {
+            "suburb": "Dean Park",
+            "dist": 25
+        },
+        {
+            "suburb": "Dee Why",
+            "dist": 30
+        },
+        {
+            "suburb": "Denham Court",
+            "dist": 19
+        },
+        {
+            "suburb": "Denistone",
+            "dist": 14
+        },
+        {
+            "suburb": "Denistone East",
+            "dist": 14
+        },
+        {
+            "suburb": "Denistone West",
+            "dist": 13
+        },
+        {
+            "suburb": "Dharruk",
+            "dist": 27
+        },
+        {
+            "suburb": "Dolans Bay",
+            "dist": 18
+        },
+        {
+            "suburb": "Dolls Point",
+            "dist": 13
+        },
+        {
+            "suburb": "Doonside",
+            "dist": 22
+        },
+        {
+            "suburb": "Dooralong",
+            "dist": 88
+        },
+        {
+            "suburb": "Double Bay",
+            "dist": 20
+        },
+        {
+            "suburb": "Douglas Park",
+            "dist": 42
+        },
+        {
+            "suburb": "Dover Heights",
+            "dist": 23
+        },
+        {
+            "suburb": "Doyalson",
+            "dist": 92
+        },
+        {
+            "suburb": "Doyalson North",
+            "dist": 94
+        },
+        {
+            "suburb": "Drummoyne",
+            "dist": 13
+        },
+        {
+            "suburb": "Duffys Forest",
+            "dist": 30
+        },
+        {
+            "suburb": "Dulwich Hill",
+            "dist": 10
+        },
+        {
+            "suburb": "Dundas",
+            "dist": 13
+        },
+        {
+            "suburb": "Dundas Valley",
+            "dist": 14
+        },
+        {
+            "suburb": "Dural",
+            "dist": 26
+        },
+        {
+            "suburb": "Durren Durren",
+            "dist": 88
+        },
+        {
+            "suburb": "Eagle Vale",
+            "dist": 24
+        },
+        {
+            "suburb": "Earlwood",
+            "dist": 9
+        },
+        {
+            "suburb": "East Gosford",
+            "dist": 61
+        },
+        {
+            "suburb": "East Hills",
+            "dist": 6
+        },
+        {
+            "suburb": "East Killara",
+            "dist": 22
+        },
+        {
+            "suburb": "East Kurrajong",
+            "dist": 51
+        },
+        {
+            "suburb": "East Lindfield",
+            "dist": 22
+        },
+        {
+            "suburb": "East Ryde",
+            "dist": 15
+        },
+        {
+            "suburb": "Eastern Creek",
+            "dist": 21
+        },
+        {
+            "suburb": "Eastgardens",
+            "dist": 18
+        },
+        {
+            "suburb": "Eastlakes",
+            "dist": 16
+        },
+        {
+            "suburb": "Eastwood",
+            "dist": 15
+        },
+        {
+            "suburb": "Ebenezer",
+            "dist": 46
+        },
+        {
+            "suburb": "Edensor Park",
+            "dist": 14
+        },
+        {
+            "suburb": "Edgecliff",
+            "dist": 19
+        },
+        {
+            "suburb": "Edmondson Park",
+            "dist": 17
+        },
+        {
+            "suburb": "Elanora Heights",
+            "dist": 32
+        },
+        {
+            "suburb": "Elderslie",
+            "dist": 32
+        },
+        {
+            "suburb": "Elizabeth Bay",
+            "dist": 18
+        },
+        {
+            "suburb": "Elizabeth Hills",
+            "dist": 17
+        },
+        {
+            "suburb": "Ellis Lane",
+            "dist": 34
+        },
+        {
+            "suburb": "Elvina Bay",
+            "dist": 38
+        },
+        {
+            "suburb": "Emerton",
+            "dist": 28
+        },
+        {
+            "suburb": "Empire Bay",
+            "dist": 55
+        },
+        {
+            "suburb": "Emu Heights",
+            "dist": 40
+        },
+        {
+            "suburb": "Emu Plains",
+            "dist": 39
+        },
+        {
+            "suburb": "Enfield",
+            "dist": 6
+        },
+        {
+            "suburb": "Engadine",
+            "dist": 15
+        },
+        {
+            "suburb": "Englorie Park",
+            "dist": 28
+        },
+        {
+            "suburb": "Enmore",
+            "dist": 12
+        },
+        {
+            "suburb": "Epping",
+            "dist": 16
+        },
+        {
+            "suburb": "Erina",
+            "dist": 63
+        },
+        {
+            "suburb": "Erina Heights",
+            "dist": 64
+        },
+        {
+            "suburb": "Ermington",
+            "dist": 12
+        },
+        {
+            "suburb": "Erskine Park",
+            "dist": 25
+        },
+        {
+            "suburb": "Erskineville",
+            "dist": 14
+        },
+        {
+            "suburb": "Eschol Park",
+            "dist": 24
+        },
+        {
+            "suburb": "Ettalong Beach",
+            "dist": 52
+        },
+        {
+            "suburb": "Eveleigh",
+            "dist": 15
+        },
+        {
+            "suburb": "Fairfield",
+            "dist": 9
+        },
+        {
+            "suburb": "Fairfield East",
+            "dist": 7
+        },
+        {
+            "suburb": "Fairfield Heights",
+            "dist": 10
+        },
+        {
+            "suburb": "Fairfield West",
+            "dist": 11
+        },
+        {
+            "suburb": "Fairlight",
+            "dist": 26
+        },
+        {
+            "suburb": "Faulconbridge",
+            "dist": 51
+        },
+        {
+            "suburb": "Fernances",
+            "dist": 80
+        },
+        {
+            "suburb": "Fiddletown",
+            "dist": 40
+        },
+        {
+            "suburb": "Five Dock",
+            "dist": 10
+        },
+        {
+            "suburb": "Forest Glen",
+            "dist": 41
+        },
+        {
+            "suburb": "Forest Lodge",
+            "dist": 14
+        },
+        {
+            "suburb": "Forestville",
+            "dist": 24
+        },
+        {
+            "suburb": "Forresters Beach",
+            "dist": 69
+        },
+        {
+            "suburb": "Fountaindale",
+            "dist": 72
+        },
+        {
+            "suburb": "Frazer Park",
+            "dist": 98
+        },
+        {
+            "suburb": "Freemans",
+            "dist": 95
+        },
+        {
+            "suburb": "Freemans Reach",
+            "dist": 44
+        },
+        {
+            "suburb": "Frenchs Forest",
+            "dist": 25
+        },
+        {
+            "suburb": "Freshwater",
+            "dist": 28
+        },
+        {
+            "suburb": "Galston",
+            "dist": 30
+        },
+        {
+            "suburb": "Georges Hall",
+            "dist": 4
+        },
+        {
+            "suburb": "Gilead",
+            "dist": 32
+        },
+        {
+            "suburb": "Girraween",
+            "dist": 15
+        },
+        {
+            "suburb": "Gladesville",
+            "dist": 13
+        },
+        {
+            "suburb": "Glebe",
+            "dist": 15
+        },
+        {
+            "suburb": "Gledswood Hills",
+            "dist": 25
+        },
+        {
+            "suburb": "Glen Alpine",
+            "dist": 30
+        },
+        {
+            "suburb": "Glenbrook",
+            "dist": 41
+        },
+        {
+            "suburb": "Glendenning",
+            "dist": 25
+        },
+        {
+            "suburb": "Glenfield",
+            "dist": 13
+        },
+        {
+            "suburb": "Glenhaven",
+            "dist": 24
+        },
+        {
+            "suburb": "Glenmore",
+            "dist": 43
+        },
+        {
+            "suburb": "Glenmore Park",
+            "dist": 35
+        },
+        {
+            "suburb": "Glenning Valley",
+            "dist": 72
+        },
+        {
+            "suburb": "Glenorie",
+            "dist": 39
+        },
+        {
+            "suburb": "Glenwood",
+            "dist": 22
+        },
+        {
+            "suburb": "Glenworth Valley",
+            "dist": 58
+        },
+        {
+            "suburb": "Glossodia",
+            "dist": 48
+        },
+        {
+            "suburb": "Gordon",
+            "dist": 21
+        },
+        {
+            "suburb": "Gorokan",
+            "dist": 86
+        },
+        {
+            "suburb": "Gosford",
+            "dist": 62
+        },
+        {
+            "suburb": "Granville",
+            "dist": 9
+        },
+        {
+            "suburb": "Grasmere",
+            "dist": 36
+        },
+        {
+            "suburb": "Grays Point",
+            "dist": 15
+        },
+        {
+            "suburb": "Great Mackerel Beach",
+            "dist": 44
+        },
+        {
+            "suburb": "Green Point",
+            "dist": 61
+        },
+        {
+            "suburb": "Green Point",
+            "dist": 62
+        },
+        {
+            "suburb": "Green Valley",
+            "dist": 15
+        },
+        {
+            "suburb": "Greenacre",
+            "dist": 3
+        },
+        {
+            "suburb": "Greendale",
+            "dist": 34
+        },
+        {
+            "suburb": "Greenfield Park",
+            "dist": 13
+        },
+        {
+            "suburb": "Greengrove",
+            "dist": 61
+        },
+        {
+            "suburb": "Greenhills Beach",
+            "dist": 17
+        },
+        {
+            "suburb": "Greenwich",
+            "dist": 17
+        },
+        {
+            "suburb": "Gregory Hills",
+            "dist": 26
+        },
+        {
+            "suburb": "Greystanes",
+            "dist": 13
+        },
+        {
+            "suburb": "Grose Vale",
+            "dist": 50
+        },
+        {
+            "suburb": "Grose Wold",
+            "dist": 48
+        },
+        {
+            "suburb": "Guildford",
+            "dist": 7
+        },
+        {
+            "suburb": "Guildford West",
+            "dist": 10
+        },
+        {
+            "suburb": "Gunderman",
+            "dist": 58
+        },
+        {
+            "suburb": "Gwandalan",
+            "dist": 100
+        },
+        {
+            "suburb": "Gymea",
+            "dist": 13
+        },
+        {
+            "suburb": "Gymea Bay",
+            "dist": 15
+        },
+        {
+            "suburb": "Haberfield",
+            "dist": 10
+        },
+        {
+            "suburb": "Halekulani",
+            "dist": 91
+        },
+        {
+            "suburb": "Halloran",
+            "dist": 85
+        },
+        {
+            "suburb": "Hamlyn Terrace",
+            "dist": 84
+        },
+        {
+            "suburb": "Hammondville",
+            "dist": 7
+        },
+        {
+            "suburb": "Hardys Bay",
+            "dist": 52
+        },
+        {
+            "suburb": "Harrington Park",
+            "dist": 29
+        },
+        {
+            "suburb": "Harris Park",
+            "dist": 10
+        },
+        {
+            "suburb": "Hassall Grove",
+            "dist": 27
+        },
+        {
+            "suburb": "Hawkesbury Heights",
+            "dist": 45
+        },
+        {
+            "suburb": "Haymarket",
+            "dist": 16
+        },
+        {
+            "suburb": "Hazelbrook",
+            "dist": 57
+        },
+        {
+            "suburb": "Heathcote",
+            "dist": 18
+        },
+        {
+            "suburb": "Hebersham",
+            "dist": 27
+        },
+        {
+            "suburb": "Heckenberg",
+            "dist": 12
+        },
+        {
+            "suburb": "Henley",
+            "dist": 13
+        },
+        {
+            "suburb": "Higher Macdonald",
+            "dist": 84
+        },
+        {
+            "suburb": "Hillsdale",
+            "dist": 18
+        },
+        {
+            "suburb": "Hinchinbrook",
+            "dist": 15
+        },
+        {
+            "suburb": "Hobartville",
+            "dist": 44
+        },
+        {
+            "suburb": "Holgate",
+            "dist": 66
+        },
+        {
+            "suburb": "Holroyd",
+            "dist": 10
+        },
+        {
+            "suburb": "Holsworthy",
+            "dist": 20
+        },
+        {
+            "suburb": "Homebush",
+            "dist": 7
+        },
+        {
+            "suburb": "Homebush West",
+            "dist": 7
+        },
+        {
+            "suburb": "Horningsea Park",
+            "dist": 17
+        },
+        {
+            "suburb": "Hornsby",
+            "dist": 25
+        },
+        {
+            "suburb": "Hornsby Heights",
+            "dist": 30
+        },
+        {
+            "suburb": "Horsfield Bay",
+            "dist": 53
+        },
+        {
+            "suburb": "Horsley Park",
+            "dist": 18
+        },
+        {
+            "suburb": "Hoxton Park",
+            "dist": 15
+        },
+        {
+            "suburb": "Hunters Hill",
+            "dist": 14
+        },
+        {
+            "suburb": "Huntingwood",
+            "dist": 19
+        },
+        {
+            "suburb": "Huntleys Cove",
+            "dist": 13
+        },
+        {
+            "suburb": "Huntleys Point",
+            "dist": 13
+        },
+        {
+            "suburb": "Hurlstone Park",
+            "dist": 9
+        },
+        {
+            "suburb": "Hurstville",
+            "dist": 7
+        },
+        {
+            "suburb": "Hurstville Grove",
+            "dist": 8
+        },
+        {
+            "suburb": "Illawong",
+            "dist": 8
+        },
+        {
+            "suburb": "Ingleburn",
+            "dist": 18
+        },
+        {
+            "suburb": "Ingleside",
+            "dist": 33
+        },
+        {
+            "suburb": "Jamisontown",
+            "dist": 36
+        },
+        {
+            "suburb": "Jannali",
+            "dist": 11
+        },
+        {
+            "suburb": "Jilliby",
+            "dist": 84
+        },
+        {
+            "suburb": "Jordan Springs",
+            "dist": 35
+        },
+        {
+            "suburb": "Kanangra",
+            "dist": 85
+        },
+        {
+            "suburb": "Kangaroo Point",
+            "dist": 10
+        },
+        {
+            "suburb": "Kangy Angy",
+            "dist": 74
+        },
+        {
+            "suburb": "Kanwal",
+            "dist": 84
+        },
+        {
+            "suburb": "Kareela",
+            "dist": 11
+        },
+        {
+            "suburb": "Kariong",
+            "dist": 56
+        },
+        {
+            "suburb": "Katoomba",
+            "dist": 72
+        },
+        {
+            "suburb": "Kearns",
+            "dist": 23
+        },
+        {
+            "suburb": "Kellyville",
+            "dist": 25
+        },
+        {
+            "suburb": "Kellyville Ridge",
+            "dist": 26
+        },
+        {
+            "suburb": "Kemps Creek",
+            "dist": 23
+        },
+        {
+            "suburb": "Kensington",
+            "dist": 17
+        },
+        {
+            "suburb": "Kenthurst",
+            "dist": 31
+        },
+        {
+            "suburb": "Kentlyn",
+            "dist": 21
+        },
+        {
+            "suburb": "Kiar",
+            "dist": 88
+        },
+        {
+            "suburb": "Killara",
+            "dist": 20
+        },
+        {
+            "suburb": "Killarney Heights",
+            "dist": 24
+        },
+        {
+            "suburb": "Killarney Vale",
+            "dist": 73
+        },
+        {
+            "suburb": "Killcare",
+            "dist": 53
+        },
+        {
+            "suburb": "Killcare Heights",
+            "dist": 54
+        },
+        {
+            "suburb": "Kincumber",
+            "dist": 60
+        },
+        {
+            "suburb": "Kincumber South",
+            "dist": 58
+        },
+        {
+            "suburb": "Kingfisher Shores",
+            "dist": 96
+        },
+        {
+            "suburb": "Kings Langley",
+            "dist": 20
+        },
+        {
+            "suburb": "Kings Park",
+            "dist": 22
+        },
+        {
+            "suburb": "Kingsford",
+            "dist": 18
+        },
+        {
+            "suburb": "Kingsgrove",
+            "dist": 6
+        },
+        {
+            "suburb": "Kingswood",
+            "dist": 33
+        },
+        {
+            "suburb": "Kirkham",
+            "dist": 32
+        },
+        {
+            "suburb": "Kirrawee",
+            "dist": 13
+        },
+        {
+            "suburb": "Kirribilli",
+            "dist": 18
+        },
+        {
+            "suburb": "Kogarah",
+            "dist": 11
+        },
+        {
+            "suburb": "Kogarah Bay",
+            "dist": 11
+        },
+        {
+            "suburb": "Koolewong",
+            "dist": 56
+        },
+        {
+            "suburb": "Ku-Ring-Gai Chase",
+            "dist": 36
+        },
+        {
+            "suburb": "Kulnura",
+            "dist": 82
+        },
+        {
+            "suburb": "Kurmond",
+            "dist": 51
+        },
+        {
+            "suburb": "Kurnell",
+            "dist": 18
+        },
+        {
+            "suburb": "Kurraba Point",
+            "dist": 19
+        },
+        {
+            "suburb": "Kurrajong",
+            "dist": 54
+        },
+        {
+            "suburb": "Kurrajong Heights",
+            "dist": 59
+        },
+        {
+            "suburb": "Kurrajong Hills",
+            "dist": 55
+        },
+        {
+            "suburb": "Kyeemagh",
+            "dist": 12
+        },
+        {
+            "suburb": "Kyle Bay",
+            "dist": 10
+        },
+        {
+            "suburb": "La Perouse",
+            "dist": 20
+        },
+        {
+            "suburb": "Lake Haven",
+            "dist": 86
+        },
+        {
+            "suburb": "Lake Munmorah",
+            "dist": 95
+        },
+        {
+            "suburb": "Lakemba",
+            "dist": 4
+        },
+        {
+            "suburb": "Lakesland",
+            "dist": 57
+        },
+        {
+            "suburb": "Lalor Park",
+            "dist": 19
+        },
+        {
+            "suburb": "Lane Cove",
+            "dist": 16
+        },
+        {
+            "suburb": "Lane Cove North",
+            "dist": 17
+        },
+        {
+            "suburb": "Lane Cove West",
+            "dist": 16
+        },
+        {
+            "suburb": "Lansdowne",
+            "dist": 5
+        },
+        {
+            "suburb": "Lansvale",
+            "dist": 6
+        },
+        {
+            "suburb": "Lapstone",
+            "dist": 39
+        },
+        {
+            "suburb": "Laughtondale",
+            "dist": 53
+        },
+        {
+            "suburb": "Lavender Bay",
+            "dist": 18
+        },
+        {
+            "suburb": "Lawson",
+            "dist": 59
+        },
+        {
+            "suburb": "Leets Vale",
+            "dist": 55
+        },
+        {
+            "suburb": "Leichhardt",
+            "dist": 12
+        },
+        {
+            "suburb": "Lemon Tree",
+            "dist": 93
+        },
+        {
+            "suburb": "Len Waters Estate",
+            "dist": 16
+        },
+        {
+            "suburb": "Leonay",
+            "dist": 39
+        },
+        {
+            "suburb": "Leppington",
+            "dist": 22
+        },
+        {
+            "suburb": "Lethbridge Park",
+            "dist": 29
+        },
+        {
+            "suburb": "Leumeah",
+            "dist": 23
+        },
+        {
+            "suburb": "Leura",
+            "dist": 68
+        },
+        {
+            "suburb": "Lewisham",
+            "dist": 10
+        },
+        {
+            "suburb": "Liberty Grove",
+            "dist": 10
+        },
+        {
+            "suburb": "Lidcombe",
+            "dist": 6
+        },
+        {
+            "suburb": "Lilli Pilli",
+            "dist": 18
+        },
+        {
+            "suburb": "Lilyfield",
+            "dist": 13
+        },
+        {
+            "suburb": "Linden",
+            "dist": 54
+        },
+        {
+            "suburb": "Lindfield",
+            "dist": 19
+        },
+        {
+            "suburb": "Linley Point",
+            "dist": 14
+        },
+        {
+            "suburb": "Lisarow",
+            "dist": 67
+        },
+        {
+            "suburb": "Little Bay",
+            "dist": 21
+        },
+        {
+            "suburb": "Little Jilliby",
+            "dist": 82
+        },
+        {
+            "suburb": "Little Wobby",
+            "dist": 46
+        },
+        {
+            "suburb": "Liverpool",
+            "dist": 10
+        },
+        {
+            "suburb": "Llandilo",
+            "dist": 34
+        },
+        {
+            "suburb": "Loftus",
+            "dist": 13
+        },
+        {
+            "suburb": "Londonderry",
+            "dist": 39
+        },
+        {
+            "suburb": "Long Jetty",
+            "dist": 75
+        },
+        {
+            "suburb": "Long Point",
+            "dist": 16
+        },
+        {
+            "suburb": "Longueville",
+            "dist": 16
+        },
+        {
+            "suburb": "Lovett Bay",
+            "dist": 39
+        },
+        {
+            "suburb": "Lower Macdonald",
+            "dist": 62
+        },
+        {
+            "suburb": "Lower Mangrove",
+            "dist": 58
+        },
+        {
+            "suburb": "Lower Portland",
+            "dist": 54
+        },
+        {
+            "suburb": "Lucas Heights",
+            "dist": 14
+        },
+        {
+            "suburb": "Luddenham",
+            "dist": 29
+        },
+        {
+            "suburb": "Lugarno",
+            "dist": 6
+        },
+        {
+            "suburb": "Lurnea",
+            "dist": 12
+        },
+        {
+            "suburb": "Macmasters Beach",
+            "dist": 58
+        },
+        {
+            "suburb": "Macquarie Fields",
+            "dist": 15
+        },
+        {
+            "suburb": "Macquarie Links",
+            "dist": 16
+        },
+        {
+            "suburb": "Macquarie Park",
+            "dist": 17
+        },
+        {
+            "suburb": "Magenta",
+            "dist": 82
+        },
+        {
+            "suburb": "Maianbar",
+            "dist": 19
+        },
+        {
+            "suburb": "Malabar",
+            "dist": 21
+        },
+        {
+            "suburb": "Maldon",
+            "dist": 47
+        },
+        {
+            "suburb": "Mangrove Creek",
+            "dist": 63
+        },
+        {
+            "suburb": "Mangrove Mountain",
+            "dist": 67
+        },
+        {
+            "suburb": "Manly",
+            "dist": 27
+        },
+        {
+            "suburb": "Manly Vale",
+            "dist": 26
+        },
+        {
+            "suburb": "Mannering Park",
+            "dist": 96
+        },
+        {
+            "suburb": "Maraylya",
+            "dist": 37
+        },
+        {
+            "suburb": "Marayong",
+            "dist": 22
+        },
+        {
+            "suburb": "Mardi",
+            "dist": 77
+        },
+        {
+            "suburb": "Marlow",
+            "dist": 51
+        },
+        {
+            "suburb": "Maroota",
+            "dist": 51
+        },
+        {
+            "suburb": "Maroubra",
+            "dist": 20
+        },
+        {
+            "suburb": "Marrickville",
+            "dist": 11
+        },
+        {
+            "suburb": "Marsden Park",
+            "dist": 31
+        },
+        {
+            "suburb": "Marsfield",
+            "dist": 17
+        },
+        {
+            "suburb": "Mascot",
+            "dist": 14
+        },
+        {
+            "suburb": "Matcham",
+            "dist": 67
+        },
+        {
+            "suburb": "Matraville",
+            "dist": 19
+        },
+        {
+            "suburb": "Mays Hill",
+            "dist": 11
+        },
+        {
+            "suburb": "McGraths Hill",
+            "dist": 38
+        },
+        {
+            "suburb": "McMahons Point",
+            "dist": 17
+        },
+        {
+            "suburb": "Meadowbank",
+            "dist": 12
+        },
+        {
+            "suburb": "Medlow Bath",
+            "dist": 73
+        },
+        {
+            "suburb": "Megalong Valley",
+            "dist": 77
+        },
+        {
+            "suburb": "Mellong",
+            "dist": 95
+        },
+        {
+            "suburb": "Melrose Park",
+            "dist": 12
+        },
+        {
+            "suburb": "Menai",
+            "dist": 9
+        },
+        {
+            "suburb": "Menangle",
+            "dist": 37
+        },
+        {
+            "suburb": "Menangle Park",
+            "dist": 32
+        },
+        {
+            "suburb": "Merrylands",
+            "dist": 10
+        },
+        {
+            "suburb": "Merrylands West",
+            "dist": 10
+        },
+        {
+            "suburb": "Middle Cove",
+            "dist": 21
+        },
+        {
+            "suburb": "Middle Dural",
+            "dist": 31
+        },
+        {
+            "suburb": "Middleton Grange",
+            "dist": 17
+        },
+        {
+            "suburb": "Miller",
+            "dist": 13
+        },
+        {
+            "suburb": "Millers Point",
+            "dist": 17
+        },
+        {
+            "suburb": "Milperra",
+            "dist": 4
+        },
+        {
+            "suburb": "Milsons Passage",
+            "dist": 47
+        },
+        {
+            "suburb": "Milsons Point",
+            "dist": 18
+        },
+        {
+            "suburb": "Minchinbury",
+            "dist": 23
+        },
+        {
+            "suburb": "Minto",
+            "dist": 20
+        },
+        {
+            "suburb": "Minto Heights",
+            "dist": 19
+        },
+        {
+            "suburb": "Miranda",
+            "dist": 14
+        },
+        {
+            "suburb": "Mogo Creek",
+            "dist": 86
+        },
+        {
+            "suburb": "Mona Vale",
+            "dist": 36
+        },
+        {
+            "suburb": "Monterey",
+            "dist": 12
+        },
+        {
+            "suburb": "Mooney Mooney",
+            "dist": 47
+        },
+        {
+            "suburb": "Mooney Mooney Creek",
+            "dist": 53
+        },
+        {
+            "suburb": "Moore Park",
+            "dist": 17
+        },
+        {
+            "suburb": "Moorebank",
+            "dist": 8
+        },
+        {
+            "suburb": "Morning Bay",
+            "dist": 40
+        },
+        {
+            "suburb": "Mortdale",
+            "dist": 6
+        },
+        {
+            "suburb": "Mortlake",
+            "dist": 11
+        },
+        {
+            "suburb": "Mosman",
+            "dist": 22
+        },
+        {
+            "suburb": "Mount Annan",
+            "dist": 29
+        },
+        {
+            "suburb": "Mount Colah",
+            "dist": 29
+        },
+        {
+            "suburb": "Mount Druitt",
+            "dist": 26
+        },
+        {
+            "suburb": "Mount Elliot",
+            "dist": 65
+        },
+        {
+            "suburb": "Mount Hunter",
+            "dist": 43
+        },
+        {
+            "suburb": "Mount Irvine",
+            "dist": 72
+        },
+        {
+            "suburb": "Mount Kuring-Gai",
+            "dist": 32
+        },
+        {
+            "suburb": "Mount Lewis",
+            "dist": 1
+        },
+        {
+            "suburb": "Mount Pritchard",
+            "dist": 12
+        },
+        {
+            "suburb": "Mount Riverview",
+            "dist": 42
+        },
+        {
+            "suburb": "Mount Tomah",
+            "dist": 70
+        },
+        {
+            "suburb": "Mount Vernon",
+            "dist": 21
+        },
+        {
+            "suburb": "Mount Victoria",
+            "dist": 82
+        },
+        {
+            "suburb": "Mount White",
+            "dist": 54
+        },
+        {
+            "suburb": "Mount Wilson",
+            "dist": 74
+        },
+        {
+            "suburb": "Mountain Lagoon",
+            "dist": 65
+        },
+        {
+            "suburb": "Mowbray Park",
+            "dist": 51
+        },
+        {
+            "suburb": "Mulgoa",
+            "dist": 37
+        },
+        {
+            "suburb": "Mulgrave",
+            "dist": 37
+        },
+        {
+            "suburb": "Narara",
+            "dist": 64
+        },
+        {
+            "suburb": "Narellan",
+            "dist": 30
+        },
+        {
+            "suburb": "Narellan Vale",
+            "dist": 30
+        },
+        {
+            "suburb": "Naremburn",
+            "dist": 19
+        },
+        {
+            "suburb": "Narrabeen",
+            "dist": 33
+        },
+        {
+            "suburb": "Narraweena",
+            "dist": 29
+        },
+        {
+            "suburb": "Narwee",
+            "dist": 4
+        },
+        {
+            "suburb": "Nattai",
+            "dist": 56
+        },
+        {
+            "suburb": "Nelson",
+            "dist": 32
+        },
+        {
+            "suburb": "Neutral Bay",
+            "dist": 19
+        },
+        {
+            "suburb": "Newington",
+            "dist": 9
+        },
+        {
+            "suburb": "Newport",
+            "dist": 39
+        },
+        {
+            "suburb": "Newtown",
+            "dist": 13
+        },
+        {
+            "suburb": "Niagara Park",
+            "dist": 66
+        },
+        {
+            "suburb": "Norah Head",
+            "dist": 86
+        },
+        {
+            "suburb": "Noraville",
+            "dist": 87
+        },
+        {
+            "suburb": "Normanhurst",
+            "dist": 22
+        },
+        {
+            "suburb": "North Avoca",
+            "dist": 63
+        },
+        {
+            "suburb": "North Balgowlah",
+            "dist": 25
+        },
+        {
+            "suburb": "North Bondi",
+            "dist": 22
+        },
+        {
+            "suburb": "North Curl Curl",
+            "dist": 29
+        },
+        {
+            "suburb": "North Epping",
+            "dist": 18
+        },
+        {
+            "suburb": "North Gosford",
+            "dist": 63
+        },
+        {
+            "suburb": "North Manly",
+            "dist": 27
+        },
+        {
+            "suburb": "North Narrabeen",
+            "dist": 34
+        },
+        {
+            "suburb": "North Parramatta",
+            "dist": 14
+        },
+        {
+            "suburb": "North Richmond",
+            "dist": 48
+        },
+        {
+            "suburb": "North Rocks",
+            "dist": 16
+        },
+        {
+            "suburb": "North Ryde",
+            "dist": 16
+        },
+        {
+            "suburb": "North St Marys",
+            "dist": 29
+        },
+        {
+            "suburb": "North Strathfield",
+            "dist": 8
+        },
+        {
+            "suburb": "North Sydney",
+            "dist": 18
+        },
+        {
+            "suburb": "North Turramurra",
+            "dist": 27
+        },
+        {
+            "suburb": "North Wahroonga",
+            "dist": 26
+        },
+        {
+            "suburb": "North Willoughby",
+            "dist": 20
+        },
+        {
+            "suburb": "Northbridge",
+            "dist": 21
+        },
+        {
+            "suburb": "Northmead",
+            "dist": 15
+        },
+        {
+            "suburb": "Northwood",
+            "dist": 16
+        },
+        {
+            "suburb": "Oakdale",
+            "dist": 51
+        },
+        {
+            "suburb": "Oakhurst",
+            "dist": 27
+        },
+        {
+            "suburb": "Oakville",
+            "dist": 35
+        },
+        {
+            "suburb": "Oatlands",
+            "dist": 13
+        },
+        {
+            "suburb": "Oatley",
+            "dist": 7
+        },
+        {
+            "suburb": "Old Guildford",
+            "dist": 7
+        },
+        {
+            "suburb": "Old Toongabbie",
+            "dist": 15
+        },
+        {
+            "suburb": "Oran Park",
+            "dist": 27
+        },
+        {
+            "suburb": "Orangeville",
+            "dist": 41
+        },
+        {
+            "suburb": "Orchard Hills",
+            "dist": 30
+        },
+        {
+            "suburb": "Ourimbah",
+            "dist": 72
+        },
+        {
+            "suburb": "Oxford Falls",
+            "dist": 28
+        },
+        {
+            "suburb": "Oxley Park",
+            "dist": 27
+        },
+        {
+            "suburb": "Oyster Bay",
+            "dist": 10
+        },
+        {
+            "suburb": "Paddington",
+            "dist": 18
+        },
+        {
+            "suburb": "Padstow",
+            "dist": 3
+        },
+        {
+            "suburb": "Padstow Heights",
+            "dist": 5
+        },
+        {
+            "suburb": "Pagewood",
+            "dist": 16
+        },
+        {
+            "suburb": "Palm Beach",
+            "dist": 44
+        },
+        {
+            "suburb": "Palm Grove",
+            "dist": 71
+        },
+        {
+            "suburb": "Palmdale",
+            "dist": 72
+        },
+        {
+            "suburb": "Panania",
+            "dist": 5
+        },
+        {
+            "suburb": "Parklea",
+            "dist": 24
+        },
+        {
+            "suburb": "Parramatta",
+            "dist": 11
+        },
+        {
+            "suburb": "Patonga",
+            "dist": 48
+        },
+        {
+            "suburb": "Peakhurst",
+            "dist": 5
+        },
+        {
+            "suburb": "Peakhurst Heights",
+            "dist": 6
+        },
+        {
+            "suburb": "Pearl Beach",
+            "dist": 49
+        },
+        {
+            "suburb": "Peats Ridge",
+            "dist": 66
+        },
+        {
+            "suburb": "Pemulwuy",
+            "dist": 14
+        },
+        {
+            "suburb": "Pendle Hill",
+            "dist": 14
+        },
+        {
+            "suburb": "Pennant Hills",
+            "dist": 20
+        },
+        {
+            "suburb": "Penrith",
+            "dist": 37
+        },
+        {
+            "suburb": "Penshurst",
+            "dist": 7
+        },
+        {
+            "suburb": "Perrys Crossing",
+            "dist": 83
+        },
+        {
+            "suburb": "Petersham",
+            "dist": 11
+        },
+        {
+            "suburb": "Phegans Bay",
+            "dist": 54
+        },
+        {
+            "suburb": "Phillip Bay",
+            "dist": 19
+        },
+        {
+            "suburb": "Picketts Valley",
+            "dist": 62
+        },
+        {
+            "suburb": "Picnic Point",
+            "dist": 6
+        },
+        {
+            "suburb": "Picton",
+            "dist": 48
+        },
+        {
+            "suburb": "Pitt Town",
+            "dist": 40
+        },
+        {
+            "suburb": "Pitt Town Bottoms",
+            "dist": 40
+        },
+        {
+            "suburb": "Pleasure Point",
+            "dist": 7
+        },
+        {
+            "suburb": "Plumpton",
+            "dist": 25
+        },
+        {
+            "suburb": "Point Clare",
+            "dist": 59
+        },
+        {
+            "suburb": "Point Frederick",
+            "dist": 60
+        },
+        {
+            "suburb": "Point Piper",
+            "dist": 21
+        },
+        {
+            "suburb": "Point Wolstoncroft",
+            "dist": 102
+        },
+        {
+            "suburb": "Port Botany",
+            "dist": 18
+        },
+        {
+            "suburb": "Port Hacking",
+            "dist": 18
+        },
+        {
+            "suburb": "Potts Hill",
+            "dist": 3
+        },
+        {
+            "suburb": "Potts Point",
+            "dist": 18
+        },
+        {
+            "suburb": "Prairiewood",
+            "dist": 12
+        },
+        {
+            "suburb": "Prestons",
+            "dist": 14
+        },
+        {
+            "suburb": "Pretty Beach",
+            "dist": 52
+        },
+        {
+            "suburb": "Prospect",
+            "dist": 16
+        },
+        {
+            "suburb": "Punchbowl",
+            "dist": 2
+        },
+        {
+            "suburb": "Putney",
+            "dist": 12
+        },
+        {
+            "suburb": "Putty",
+            "dist": 119
+        },
+        {
+            "suburb": "Pymble",
+            "dist": 21
+        },
+        {
+            "suburb": "Pyrmont",
+            "dist": 15
+        },
+        {
+            "suburb": "Quakers Hill",
+            "dist": 24
+        },
+        {
+            "suburb": "Queens Park",
+            "dist": 20
+        },
+        {
+            "suburb": "Queenscliff",
+            "dist": 27
+        },
+        {
+            "suburb": "Raby",
+            "dist": 22
+        },
+        {
+            "suburb": "Ramsgate",
+            "dist": 12
+        },
+        {
+            "suburb": "Ramsgate Beach",
+            "dist": 12
+        },
+        {
+            "suburb": "Randwick",
+            "dist": 19
+        },
+        {
+            "suburb": "Ravensdale",
+            "dist": 92
+        },
+        {
+            "suburb": "Razorback",
+            "dist": 44
+        },
+        {
+            "suburb": "Redfern",
+            "dist": 16
+        },
+        {
+            "suburb": "Regents Park",
+            "dist": 4
+        },
+        {
+            "suburb": "Regentville",
+            "dist": 37
+        },
+        {
+            "suburb": "Revesby",
+            "dist": 3
+        },
+        {
+            "suburb": "Revesby Heights",
+            "dist": 5
+        },
+        {
+            "suburb": "Rhodes",
+            "dist": 11
+        },
+        {
+            "suburb": "Richmond",
+            "dist": 43
+        },
+        {
+            "suburb": "Richmond Lowlands",
+            "dist": 45
+        },
+        {
+            "suburb": "Riverstone",
+            "dist": 32
+        },
+        {
+            "suburb": "Riverview",
+            "dist": 15
+        },
+        {
+            "suburb": "Riverwood",
+            "dist": 3
+        },
+        {
+            "suburb": "Rockdale",
+            "dist": 10
+        },
+        {
+            "suburb": "Rocky Point",
+            "dist": 80
+        },
+        {
+            "suburb": "Rodd Point",
+            "dist": 11
+        },
+        {
+            "suburb": "Rookwood",
+            "dist": 5
+        },
+        {
+            "suburb": "Rooty Hill",
+            "dist": 23
+        },
+        {
+            "suburb": "Ropes Crossing",
+            "dist": 31
+        },
+        {
+            "suburb": "Rose Bay",
+            "dist": 22
+        },
+        {
+            "suburb": "Rosebery",
+            "dist": 16
+        },
+        {
+            "suburb": "Rosehill",
+            "dist": 10
+        },
+        {
+            "suburb": "Roselands",
+            "dist": 4
+        },
+        {
+            "suburb": "Rosemeadow",
+            "dist": 30
+        },
+        {
+            "suburb": "Roseville",
+            "dist": 20
+        },
+        {
+            "suburb": "Roseville Chase",
+            "dist": 22
+        },
+        {
+            "suburb": "Rossmore",
+            "dist": 23
+        },
+        {
+            "suburb": "Rouse Hill",
+            "dist": 29
+        },
+        {
+            "suburb": "Royal National Park",
+            "dist": 21
+        },
+        {
+            "suburb": "Rozelle",
+            "dist": 14
+        },
+        {
+            "suburb": "Ruse",
+            "dist": 24
+        },
+        {
+            "suburb": "Rushcutters Bay",
+            "dist": 18
+        },
+        {
+            "suburb": "Russell Lea",
+            "dist": 12
+        },
+        {
+            "suburb": "Rydalmere",
+            "dist": 11
+        },
+        {
+            "suburb": "Ryde",
+            "dist": 14
+        },
+        {
+            "suburb": "Sackville",
+            "dist": 49
+        },
+        {
+            "suburb": "Sackville North",
+            "dist": 49
+        },
+        {
+            "suburb": "Sadleir",
+            "dist": 12
+        },
+        {
+            "suburb": "San Remo",
+            "dist": 90
+        },
+        {
+            "suburb": "Sandringham",
+            "dist": 13
+        },
+        {
+            "suburb": "Sandy Point",
+            "dist": 7
+        },
+        {
+            "suburb": "Sans Souci",
+            "dist": 12
+        },
+        {
+            "suburb": "Saratoga",
+            "dist": 57
+        },
+        {
+            "suburb": "Scheyville",
+            "dist": 37
+        },
+        {
+            "suburb": "Schofields",
+            "dist": 27
+        },
+        {
+            "suburb": "Scotland Island",
+            "dist": 39
+        },
+        {
+            "suburb": "Seaforth",
+            "dist": 24
+        },
+        {
+            "suburb": "Sefton",
+            "dist": 4
+        },
+        {
+            "suburb": "Seven Hills",
+            "dist": 17
+        },
+        {
+            "suburb": "Shalvey",
+            "dist": 29
+        },
+        {
+            "suburb": "Shanes Park",
+            "dist": 32
+        },
+        {
+            "suburb": "Shelly Beach",
+            "dist": 74
+        },
+        {
+            "suburb": "Silverdale",
+            "dist": 41
+        },
+        {
+            "suburb": "Silverwater",
+            "dist": 9
+        },
+        {
+            "suburb": "Singletons Mill",
+            "dist": 50
+        },
+        {
+            "suburb": "Smeaton Grange",
+            "dist": 28
+        },
+        {
+            "suburb": "Smithfield",
+            "dist": 11
+        },
+        {
+            "suburb": "Somersby",
+            "dist": 64
+        },
+        {
+            "suburb": "South Coogee",
+            "dist": 20
+        },
+        {
+            "suburb": "South Granville",
+            "dist": 7
+        },
+        {
+            "suburb": "South Hurstville",
+            "dist": 9
+        },
+        {
+            "suburb": "South Maroota",
+            "dist": 46
+        },
+        {
+            "suburb": "South Penrith",
+            "dist": 34
+        },
+        {
+            "suburb": "South Turramurra",
+            "dist": 19
+        },
+        {
+            "suburb": "South Wentworthville",
+            "dist": 12
+        },
+        {
+            "suburb": "South Windsor",
+            "dist": 38
+        },
+        {
+            "suburb": "Spencer",
+            "dist": 53
+        },
+        {
+            "suburb": "Spring Farm",
+            "dist": 32
+        },
+        {
+            "suburb": "Springfield",
+            "dist": 63
+        },
+        {
+            "suburb": "Springwood",
+            "dist": 49
+        },
+        {
+            "suburb": "St Albans",
+            "dist": 73
+        },
+        {
+            "suburb": "St Andrews",
+            "dist": 21
+        },
+        {
+            "suburb": "St Clair",
+            "dist": 26
+        },
+        {
+            "suburb": "St Helens Park",
+            "dist": 28
+        },
+        {
+            "suburb": "St Huberts Island",
+            "dist": 55
+        },
+        {
+            "suburb": "St Ives",
+            "dist": 25
+        },
+        {
+            "suburb": "St Ives Chase",
+            "dist": 27
+        },
+        {
+            "suburb": "St Johns Park",
+            "dist": 12
+        },
+        {
+            "suburb": "St Leonards",
+            "dist": 18
+        },
+        {
+            "suburb": "St Marys",
+            "dist": 29
+        },
+        {
+            "suburb": "St Peters",
+            "dist": 13
+        },
+        {
+            "suburb": "Stanhope Gardens",
+            "dist": 24
+        },
+        {
+            "suburb": "Stanmore",
+            "dist": 12
+        },
+        {
+            "suburb": "Strathfield",
+            "dist": 6
+        },
+        {
+            "suburb": "Strathfield South",
+            "dist": 5
+        },
+        {
+            "suburb": "Summer Hill",
+            "dist": 10
+        },
+        {
+            "suburb": "Summerland Point",
+            "dist": 99
+        },
+        {
+            "suburb": "Sun Valley",
+            "dist": 46
+        },
+        {
+            "suburb": "Surry Hills",
+            "dist": 16
+        },
+        {
+            "suburb": "Sutherland",
+            "dist": 12
+        },
+        {
+            "suburb": "Sydenham",
+            "dist": 12
+        },
+        {
+            "suburb": "Sydney",
+            "dist": 17
+        },
+        {
+            "suburb": "Sydney Olympic Park",
+            "dist": 9
+        },
+        {
+            "suburb": "Sylvania",
+            "dist": 12
+        },
+        {
+            "suburb": "Sylvania Waters",
+            "dist": 13
+        },
+        {
+            "suburb": "Tacoma",
+            "dist": 80
+        },
+        {
+            "suburb": "Tacoma South",
+            "dist": 80
+        },
+        {
+            "suburb": "Tahmoor",
+            "dist": 53
+        },
+        {
+            "suburb": "Tamarama",
+            "dist": 22
+        },
+        {
+            "suburb": "Taren Point",
+            "dist": 13
+        },
+        {
+            "suburb": "Tascott",
+            "dist": 58
+        },
+        {
+            "suburb": "Telopea",
+            "dist": 13
+        },
+        {
+            "suburb": "Tempe",
+            "dist": 12
+        },
+        {
+            "suburb": "Ten Mile Hollow",
+            "dist": 66
+        },
+        {
+            "suburb": "Tennyson",
+            "dist": 50
+        },
+        {
+            "suburb": "Tennyson Point",
+            "dist": 12
+        },
+        {
+            "suburb": "Terrey Hills",
+            "dist": 30
+        },
+        {
+            "suburb": "Terrigal",
+            "dist": 64
+        },
+        {
+            "suburb": "The Devils Wilderness",
+            "dist": 60
+        },
+        {
+            "suburb": "The Entrance",
+            "dist": 77
+        },
+        {
+            "suburb": "The Entrance North",
+            "dist": 78
+        },
+        {
+            "suburb": "The Oaks",
+            "dist": 47
+        },
+        {
+            "suburb": "The Ponds",
+            "dist": 26
+        },
+        {
+            "suburb": "The Rocks",
+            "dist": 17
+        },
+        {
+            "suburb": "The Slopes",
+            "dist": 52
+        },
+        {
+            "suburb": "Theresa Park",
+            "dist": 36
+        },
+        {
+            "suburb": "Thirlmere",
+            "dist": 54
+        },
+        {
+            "suburb": "Thornleigh",
+            "dist": 22
+        },
+        {
+            "suburb": "Toongabbie",
+            "dist": 16
+        },
+        {
+            "suburb": "Toowoon Bay",
+            "dist": 75
+        },
+        {
+            "suburb": "Toukley",
+            "dist": 87
+        },
+        {
+            "suburb": "Tregear",
+            "dist": 29
+        },
+        {
+            "suburb": "Tuggerah",
+            "dist": 77
+        },
+        {
+            "suburb": "Tuggerawong",
+            "dist": 81
+        },
+        {
+            "suburb": "Tumbi Umbi",
+            "dist": 70
+        },
+        {
+            "suburb": "Turramurra",
+            "dist": 22
+        },
+        {
+            "suburb": "Turrella",
+            "dist": 10
+        },
+        {
+            "suburb": "Ultimo",
+            "dist": 16
+        },
+        {
+            "suburb": "Umina Beach",
+            "dist": 51
+        },
+        {
+            "suburb": "Upper Colo",
+            "dist": 63
+        },
+        {
+            "suburb": "Upper Macdonald",
+            "dist": 74
+        },
+        {
+            "suburb": "Upper Mangrove",
+            "dist": 70
+        },
+        {
+            "suburb": "Valley Heights",
+            "dist": 47
+        },
+        {
+            "suburb": "Varroville",
+            "dist": 22
+        },
+        {
+            "suburb": "Vaucluse",
+            "dist": 23
+        },
+        {
+            "suburb": "Villawood",
+            "dist": 6
+        },
+        {
+            "suburb": "Vineyard",
+            "dist": 35
+        },
+        {
+            "suburb": "Voyager Point",
+            "dist": 6
+        },
+        {
+            "suburb": "Wadalba",
+            "dist": 82
+        },
+        {
+            "suburb": "Wagstaffe",
+            "dist": 52
+        },
+        {
+            "suburb": "Wahroonga",
+            "dist": 23
+        },
+        {
+            "suburb": "Waitara",
+            "dist": 24
+        },
+        {
+            "suburb": "Wakeley",
+            "dist": 12
+        },
+        {
+            "suburb": "Wallacia",
+            "dist": 35
+        },
+        {
+            "suburb": "Wallarah",
+            "dist": 87
+        },
+        {
+            "suburb": "Wamberal",
+            "dist": 67
+        },
+        {
+            "suburb": "Wareemba",
+            "dist": 11
+        },
+        {
+            "suburb": "Warnervale",
+            "dist": 83
+        },
+        {
+            "suburb": "Warragamba",
+            "dist": 40
+        },
+        {
+            "suburb": "Warrawee",
+            "dist": 22
+        },
+        {
+            "suburb": "Warriewood",
+            "dist": 35
+        },
+        {
+            "suburb": "Warrimoo",
+            "dist": 44
+        },
+        {
+            "suburb": "Warwick Farm",
+            "dist": 8
+        },
+        {
+            "suburb": "Watanobbi",
+            "dist": 81
+        },
+        {
+            "suburb": "Waterfall",
+            "dist": 23
+        },
+        {
+            "suburb": "Waterloo",
+            "dist": 16
+        },
+        {
+            "suburb": "Watsons Bay",
+            "dist": 24
+        },
+        {
+            "suburb": "Wattle Grove",
+            "dist": 9
+        },
+        {
+            "suburb": "Waverley",
+            "dist": 20
+        },
+        {
+            "suburb": "Waverton",
+            "dist": 17
+        },
+        {
+            "suburb": "Webbs Creek",
+            "dist": 65
+        },
+        {
+            "suburb": "Wedderburn",
+            "dist": 31
+        },
+        {
+            "suburb": "Wendoree Park",
+            "dist": 53
+        },
+        {
+            "suburb": "Wentworth Falls",
+            "dist": 63
+        },
+        {
+            "suburb": "Wentworth Point",
+            "dist": 11
+        },
+        {
+            "suburb": "Wentworthville",
+            "dist": 13
+        },
+        {
+            "suburb": "Werombi",
+            "dist": 42
+        },
+        {
+            "suburb": "Werrington",
+            "dist": 31
+        },
+        {
+            "suburb": "Werrington County",
+            "dist": 32
+        },
+        {
+            "suburb": "Werrington Downs",
+            "dist": 34
+        },
+        {
+            "suburb": "West Gosford",
+            "dist": 61
+        },
+        {
+            "suburb": "West Hoxton",
+            "dist": 18
+        },
+        {
+            "suburb": "West Pennant Hills",
+            "dist": 19
+        },
+        {
+            "suburb": "West Pymble",
+            "dist": 19
+        },
+        {
+            "suburb": "West Ryde",
+            "dist": 13
+        },
+        {
+            "suburb": "Westleigh",
+            "dist": 23
+        },
+        {
+            "suburb": "Westmead",
+            "dist": 12
+        },
+        {
+            "suburb": "Wetherill Park",
+            "dist": 15
+        },
+        {
+            "suburb": "Whalan",
+            "dist": 27
+        },
+        {
+            "suburb": "Whale Beach",
+            "dist": 44
+        },
+        {
+            "suburb": "Wheeler Heights",
+            "dist": 31
+        },
+        {
+            "suburb": "Wheeny Creek",
+            "dist": 58
+        },
+        {
+            "suburb": "Wilberforce",
+            "dist": 44
+        },
+        {
+            "suburb": "Wiley Park",
+            "dist": 3
+        },
+        {
+            "suburb": "Willmot",
+            "dist": 30
+        },
+        {
+            "suburb": "Willoughby",
+            "dist": 20
+        },
+        {
+            "suburb": "Willoughby East",
+            "dist": 21
+        },
+        {
+            "suburb": "Wilton",
+            "dist": 49
+        },
+        {
+            "suburb": "Windsor",
+            "dist": 39
+        },
+        {
+            "suburb": "Windsor Downs",
+            "dist": 35
+        },
+        {
+            "suburb": "Winmalee",
+            "dist": 47
+        },
+        {
+            "suburb": "Winston Hills",
+            "dist": 16
+        },
+        {
+            "suburb": "Wisemans Ferry",
+            "dist": 58
+        },
+        {
+            "suburb": "Wolli Creek",
+            "dist": 11
+        },
+        {
+            "suburb": "Wollstonecraft",
+            "dist": 18
+        },
+        {
+            "suburb": "Womerah",
+            "dist": 78
+        },
+        {
+            "suburb": "Wondabyne",
+            "dist": 50
+        },
+        {
+            "suburb": "Woodbine",
+            "dist": 23
+        },
+        {
+            "suburb": "Woodcroft",
+            "dist": 22
+        },
+        {
+            "suburb": "Woodford",
+            "dist": 54
+        },
+        {
+            "suburb": "Woodpark",
+            "dist": 10
+        },
+        {
+            "suburb": "Woollahra",
+            "dist": 20
+        },
+        {
+            "suburb": "Woolloomooloo",
+            "dist": 18
+        },
+        {
+            "suburb": "Woolooware",
+            "dist": 17
+        },
+        {
+            "suburb": "Woolwich",
+            "dist": 15
+        },
+        {
+            "suburb": "Woongarrah",
+            "dist": 86
+        },
+        {
+            "suburb": "Woronora",
+            "dist": 11
+        },
+        {
+            "suburb": "Woronora Heights",
+            "dist": 12
+        },
+        {
+            "suburb": "Woy Woy",
+            "dist": 52
+        },
+        {
+            "suburb": "Woy Woy Bay",
+            "dist": 55
+        },
+        {
+            "suburb": "Wrights Creek",
+            "dist": 69
+        },
+        {
+            "suburb": "Wybung",
+            "dist": 96
+        },
+        {
+            "suburb": "Wyoming",
+            "dist": 64
+        },
+        {
+            "suburb": "Wyong",
+            "dist": 80
+        },
+        {
+            "suburb": "Wyong Creek",
+            "dist": 79
+        },
+        {
+            "suburb": "Wyongah",
+            "dist": 83
+        },
+        {
+            "suburb": "Yagoona",
+            "dist": 1
+        },
+        {
+            "suburb": "Yanderra",
+            "dist": 61
+        },
+        {
+            "suburb": "Yarramalong",
+            "dist": 81
+        },
+        {
+            "suburb": "Yarramundi",
+            "dist": 46
+        },
+        {
+            "suburb": "Yarrawarrah",
+            "dist": 14
+        },
+        {
+            "suburb": "Yattalunga",
+            "dist": 58
+        },
+        {
+            "suburb": "Yellow Rock",
+            "dist": 44
+        },
+        {
+            "suburb": "Yennora",
+            "dist": 8
+        },
+        {
+            "suburb": "Yerranderie",
+            "dist": 74
+        },
+        {
+            "suburb": "Yowie Bay",
+            "dist": 15
+        },
+        {
+            "suburb": "Zetland",
+            "dist": 16
+        }
+    ]
+}

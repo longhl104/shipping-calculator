@@ -16,27 +16,27 @@ config.read('config.ini')
 
 app.secret_key = config['APP']['secret_key']
 
+
 def active_nav(index):
     for i in range(num_pages):
         nav[i] = ''
     nav[index] = 'active'
 
+
 @app.route('/')
 def home():
     active_nav(0)
     provinces = database.get_provinces()
-    return(render_template('calculator.html', session=session, page=page, nav=nav, provinces=provinces))
+    suburbs = database.get_suburbs()
+    return render_template('calculator.html', session=session, page=page, nav=nav, provinces=provinces, suburbs=suburbs)
 
-@app.route('/')
+
+@app.route('/transaction')
 def transaction():
     active_nav(1)
-    return(render_template('transaction.html', session=session, page=page))
+    return(render_template('transaction.html', session=session, page=page, nav=nav))
 
 
-@app.route('/sw.js')
-def sw():
-    response = make_response(
-        send_from_directory('static', filename='sw.js'))
-    #change the content header file
-    response.headers['Content-Type'] = 'application/javascript'
-    return response
+@app.route('/service-worker.js')
+def service_worker():
+    return app.send_static_file('service-worker.js')

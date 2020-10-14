@@ -1,96 +1,268 @@
-{% extends "base.html" %}
-{% block title %}Homepage{% endblock %}
-{% block head %}
-  {{ super() }}
-{% endblock %}
-{% block content %}
+{% extends "base.html" %} {% block title %}Homepage{% endblock %} {% block head
+%} {{ super() }} {% endblock %} {% block content %}
 <form>
   <div class="form-row">
-    <div class="form-group col-md-6">
-      <label for="sender">Tên người gửi:</label>
-      <input type="text" class="form-control" id="sender" placeholder="Nhập tên" name="sender">
-      <label for="sender">Số điện thoại:</label>
-      <input type="text" class="form-control" id="sender" placeholder="Nhập tên" name="sender">
-      <label for="sender">Người gửi:</label>
-      <input type="text" class="form-control" id="sender" placeholder="Nhập tên" name="sender">
+    <div class="form-group col-6">
+      <label for="kg">Số kg:</label>
+      <input type="number" min="0.0" max="999.9" step="0.1" class="form-control" id="kg" placeholder="Nhập số kg"
+        name="kg" value="8.5" />
     </div>
 
-    <div class="form-group col-md-6">
-      <label for="receiver">Người nhận:</label>
-      <input type="text" class="form-control" id="receiver" placeholder="Nhập tên" name="receiver">
+    <div class="form-group col-6">
+      <label for="province">Về Tỉnh/Thành Phố:</label>
+      <select class="form-control" id="province" name="province">
+        <option value="" disabled selected>Chọn Tỉnh/Thành Phố</option>
+        {% for province in provinces %}
+        <option value="{{province[1]}}">{{province[0]}}</option>
+        {% endfor %}
+      </select>
     </div>
   </div>
 
-  <div class="form-group">
-    <label for="kg">Bạn muốn gửi bao nhiêu kg?</label>
-    <input type="number" step=0.1 class="form-control" id="kg" placeholder="Nhập số kg" name="kg">
-  </div>
-
-  <div class="form-group">
-    <label for="province">Về Tỉnh/Thành Phố:</label>
-    <select class="form-control" id="province" name="province">
-      <option value="" disabled selected>Chọn Tỉnh/Thành Phố</option>
-      {% for province in provinces %}
-      <option value="{{province}}">{{province}}</option>
-      {% endfor %}
-    </select>
+  <div class="container border border-primary rounded">
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input pickup-check" type="checkbox" value="True" id="bring-to-check" />
+        <label class="form-check-label" for="defaultCheck1">
+          Bạn mang đồ tới
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input pickup-check" type="checkbox" value="False" id="pick-up-check" />
+        <label class="form-check-label" for="defaultCheck2">
+          Chúng tôi đến pick up tại
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown_suburbs" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Chọn suburb
+            </button>
+            <div id="menu" class="dropdown-menu" aria-labelledby="dropdown_suburbs">
+              <div class="px-4 py-2">
+                <input type="search" class="form-control" id="searchCoin" placeholder="nhập tên suburb"
+                  autofocus="autofocus" />
+              </div>
+              <div id="menuItems">
+                {% for suburb in suburbs %}
+                <input type="button" class="dropdown-item" type="button"
+                  value="{{suburb['suburb']}} ({{suburb['dist']}} km)" />
+                {% endfor %}
+              </div>
+              <div id="empty" class="dropdown-header">No coins found</div>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
   </div>
 
   <div class="form-group">
     <label for="item">Bạn có đồ giá trị cần khai báo?</label>
-    <div>
-      <ol></ol>
+    <div class="container mb-2">
+      <ul id="item-list" class="list-group"></ul>
     </div>
     <div class="row">
       <div class="col-md-10">
-        <input type="text" class="form-control" id="item" placeholder="Nhập vào đây (nếu có)">
+        <input type="text" class="form-control" id="item" placeholder="Nhập vào đây (nếu có)" />
       </div>
       <div class="col-md-offset-3 col-md-2 text-center">
-        <input type="button" class="btn btn-secondary mt-1 mt-md-0" id="add-item" value="Thêm đồ">
+        <input type="button" class="btn btn-secondary mt-1 mt-md-0" id="add-item" value="Thêm đồ" />
       </div>
     </div>
-    
   </div>
 
-  <div class="form-group"> <!-- Date input -->
-    <label class="control-label" for="date">Date</label>
-    <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+  <div class="form-group">
+    <label for="plus-fee">Phí công thêm (người chuyển đồ nhập):</label>
+    <input type="number" min="0.0" max="999.9" step="0.1" class="form-control" id="plus-fee"
+      placeholder="Nhập phí cộng thêm" name="plus-fee" value="0" />
   </div>
 
-  <button type="submit" class="btn btn-primary" id="submit">Tính</button>
+  <div>
+    <div class="form-row">
+      <div class="form-group col-sm-2">
+        <button type="button" class="btn btn-primary" id="submit">Tính</button>
+      </div>
+      <div class="form-group col-sm-10">
+        <label for="total-fee">Tổng:</label>
+        <input type="text" class="form-control" id="total-fee" placeholder="Tổng phí" name="plus-fee" disabled />
+      </div>
+    </div>
+  </div>
+  </div>
 </form>
-  
+
+<!-- add item script -->
 <script>
   $(document).ready(function () {
     $("#add-item").click(function () {
       var val = $("#item").val();
-      if(val && val.trim().length > 0){
-        $("ol").append("<li>"+val+"</li>");
+      if (val && val.trim().length > 0) {
+        $("#item-list").append(
+          '<li class="list-group-item">' +
+          val +
+          '<span class="close">&times;</span></li>'
+        );
         $("#item").val("");
       }
     });
   });
 </script>
+
 <script>
   $("#item").keypress(function (event) {
-    var keycode = (event.keyCode ? event.keyCode : event.which);
-    if (keycode == '13') {
-        $("#add-item").click();
+    var keycode = event.keyCode ? event.keyCode : event.which;
+    if (keycode == "13") {
+      $("#add-item").click();
     }
     event.stopPropagation();
   });
 </script>
 <script>
-  $('form input').keypress(function (e) {
-      if (e.keyCode == 13) {
-          var inputs = $(this).parents("form").eq(0).find(":input");
-          if (inputs[inputs.index(this) + 1] != null) {                    
-              inputs[inputs.index(this) + 1].focus();
-          }
-          console.log(inputs)
-          e.preventDefault();
-          return false;
+  $("form input").keypress(function (e) {
+    if (e.keyCode == 13) {
+      var inputs = $(this).parents("form").eq(0).find(":input");
+      if (inputs[inputs.index(this) + 1] != null) {
+        inputs[inputs.index(this) + 1].focus();
       }
+      e.preventDefault();
+      return false;
+    }
+  });
+</script>
+<!-- kg input script -->
+<script>
+  $('#kg').keypress(function (event) {
+    return isNumber(event, this)
+  });
+
+  $('#plus-fee').keypress(function (event) {
+    return isNumber(event, this)
+  });
+
+
+  // THE SCRIPT THAT CHECKS IF THE KEY PRESSED IS A NUMERIC OR DECIMAL VALUE.
+  function isNumber(evt, element) {
+    var charCode = (evt.which) ? evt.which : event.keyCode
+    if (
+      (charCode != 46 || $(element).val().indexOf('.') != -1) && // “.” CHECK DOT, AND ONLY ONE.
+      (charCode < 48 || charCode > 57))
+      return false;
+    return true;
+  }
+</script>
+<!-- pick up check script -->
+<script>
+  $(".pickup-check").click(function (e) {
+    $(".pickup-check").not(this).prop("checked", false);
+  });
+</script>
+
+<!-- choose suburbs script -->
+<script>
+  //Find the input search box
+  let search = document.getElementById("searchCoin");
+
+  //Find every item inside the dropdown
+  let items = document.getElementsByClassName("dropdown-item");
+
+  function buildDropDown(values) {
+    let contents = [];
+    for (let name of values) {
+      contents.push(
+        '<input type="button" class="dropdown-item" type="button" value="' +
+        name +
+        '"/>'
+      );
+    }
+    $("#menuItems").append(contents.join(""));
+
+    //Hide the row that shows no items were found
+    $("#empty").hide();
+  }
+
+  //Capture the event when user types into the search box
+  window.addEventListener("input", function () {
+    filter(search.value.trim().toLowerCase());
+  });
+
+  //For every word entered by the user, check if the symbol starts with that word
+  //If it does show the symbol, else hide it
+  function filter(word) {
+    let length = items.length;
+    let collection = [];
+    let hidden = 0;
+    for (let i = 0; i < length; i++) {
+      if (items[i].value.toLowerCase().startsWith(word)) {
+        $(items[i]).show();
+      } else {
+        $(items[i]).hide();
+        hidden++;
+      }
+    }
+
+    //If all items are hidden, show the empty view
+    if (hidden === length) {
+      $("#empty").show();
+    } else {
+      $("#empty").hide();
+    }
+  }
+
+  //If the user clicks on any item, set the title of the button as the text of the item
+  $("#menuItems").on("click", ".dropdown-item", function () {
+    $("#dropdown_suburbs").text($(this)[0].value);
+    $("#dropdown_suburbs").dropdown("toggle");
+  });
+</script>
+
+<!-- Delete item script -->
+<script>
+  $(document).on("click", ".close", function () {
+    $(this).closest("li").remove();
+  });
+</script>
+
+<!-- Submit script -->
+<script>
+  $("#submit").click(function () {
+    var total = 0.0;
+    var kg = $("#kg").val();
+    if (kg == 0) {
+      alert("Hãy nhập đúng số kg!");
+      return;
+    }
+    var province = $("#province").val();
+    if (province == null) {
+      alert("Hãy chọn tỉnh/thành phố!");
+      return;
+    }
+    switch (province) {
+      case "HN":
+        total = 11 * kg;
+        break;
+      case "HCM":
+        total = 10 * kg;
+        break;
+      default:
+        total = 8 + 0.3 * kg;
+        break;
+    }
+
+    var btc = $('#bring-to-check').is(':checked');
+    var puc = $('#pick-up-check').is(':checked');
+    if (!btc && !puc) {
+      alert("Bạn mang đồ tới?");
+      return;
+    }
+    if (puc) {
+      let dist = $('#dropdown_suburbs').text().match(/\d+/);
+      if (dist == null) {
+        alert("Hãy chọn suburb!");
+        return;
+      }
+      if (kg < 10.0 && dist[0] > 10.0)
+        total += 3 + 0.5 * dist[0];
+    }
+    $("#total-fee").val('$' + total);
   });
 </script>
 {% endblock %}
