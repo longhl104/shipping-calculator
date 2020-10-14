@@ -235,17 +235,21 @@
         total = 10 * kg;
         break;
       default:
-        total = 8 + 0.3 * kg;
+        if(kg < 8)
+          total = 8
+        else
+          total = 8 + 0.5 * (kg - 8);
         break;
     }
+    console.log(total);
 
     var btc = $('#bring-to-check').is(':checked');
     var puc = $('#pick-up-check').is(':checked');
-    if (!btc && !puc) {
+    if (btc == false && puc == false) {
       alert("Bạn mang đồ tới?");
       return;
     }
-    if (puc) {
+    if (puc == true) {
       let dist = $('#dropdown_suburbs').text().match(/\d+/);
       if (dist == null) {
         alert("Hãy chọn suburb!");
