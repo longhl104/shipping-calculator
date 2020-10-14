@@ -1,6 +1,6 @@
 from flask import *
 import configparser
-import database
+from flask_app import database
 
 num_pages = 2
 

@@ -1,4 +1,3 @@
-import requests
 import json
 from math import cos, asin, sqrt, pi
 
