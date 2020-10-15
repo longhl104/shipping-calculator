@@ -36,14 +36,14 @@
               aria-haspopup="true" aria-expanded="false">
               Chọn suburb
             </button>
-            <div id="menu" class="dropdown-menu" aria-labelledby="dropdown_suburbs">
-              <div class="px-4 py-2">
-                <input type="search" class="form-control" id="searchCoin" placeholder="nhập tên suburb"
+            <div id="menu" class="dropdown-menu w-75" aria-labelledby="dropdown_suburbs">
+              <div>
+                <input type="search" class="form-control" id="searchSuburb" placeholder="nhập tên suburb"
                   autofocus="autofocus" />
               </div>
               <div id="menuItems">
                 {% for suburb in suburbs %}
-                <input type="button" class="dropdown-item" type="button"
+                <input type="button" class="dropdown-item suburb-field" type="button"
                   value="{{suburb['suburb']}} ({{suburb['dist']}} km)" />
                 {% endfor %}
               </div>
@@ -150,7 +150,7 @@
 <!-- choose suburbs script -->
 <script>
   //Find the input search box
-  let search = document.getElementById("searchCoin");
+  let search = document.getElementById("searchSuburb");
 
   //Find every item inside the dropdown
   let items = document.getElementsByClassName("dropdown-item");
