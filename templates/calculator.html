@@ -5,7 +5,7 @@
     <div class="form-group col-6">
       <label for="kg">Số kg:</label>
       <input type="number" min="0.0" max="999.9" step="0.1" class="form-control" id="kg" placeholder="Nhập số kg"
-        name="kg"/>
+        name="kg" />
     </div>
 
     <div class="form-group col-6">
@@ -31,7 +31,7 @@
         <input class="form-check-input pickup-check" type="checkbox" value="False" id="pick-up-check" />
         <label class="form-check-label" for="defaultCheck2">
           Chúng tôi đến pick up tại
-          <div class="dropdown">
+          <span class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown_suburbs" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
               Chọn suburb
@@ -49,13 +49,19 @@
               </div>
               <div id="empty" class="dropdown-header">No coins found</div>
             </div>
-          </div>
+          </span>
         </label>
       </div>
     </div>
   </div>
 
   <div class="form-group">
+    <label for="special-item">Tổng tiền các mặt hàng giá trị:</label>
+    <input type="number" min="0.0" max="999.9" step="0.1" class="form-control" id="special-item" placeholder="Nhập giá trị"
+      name="special-item" />
+  </div>
+
+  <!-- <div class="form-group">
     <label for="item">Bạn có đồ giá trị cần khai báo?</label>
     <div class="container mb-2">
       <ul id="item-list" class="list-group"></ul>
@@ -68,13 +74,7 @@
         <input type="button" class="btn btn-secondary mt-1 mt-md-0" id="add-item" value="Thêm đồ" />
       </div>
     </div>
-  </div>
-
-  <div class="form-group">
-    <label for="plus-fee">Phí công thêm (người chuyển đồ nhập):</label>
-    <input type="number" min="0.0" max="999.9" step="0.1" class="form-control" id="plus-fee"
-      placeholder="Nhập phí cộng thêm" name="plus-fee" value="0" />
-  </div>
+  </div> -->
 
   <div>
     <div class="form-row">
@@ -102,7 +102,7 @@
         $("#item-list").append(
           '<li class="list-group-item">' +
           val +
-          '<span class="close">&times;</span></li>'
+          '<span class = "w-50 float-right">$<input id="special-item" class="w-75 ml-1" type="number" placeholder="giá trị"></input> <span class="close ml-1">&times;</span></span></li>'
         );
         $("#item").val("");
       }
@@ -126,10 +126,9 @@
     return isNumber(event, this)
   });
 
-  $('#plus-fee').keypress(function (event) {
+  $('#special-item').keypress(function (event) {
     return isNumber(event, this)
   });
-
 
   // THE SCRIPT THAT CHECKS IF THE KEY PRESSED IS A NUMERIC OR DECIMAL VALUE.
   function isNumber(evt, element) {
@@ -230,17 +229,17 @@
     switch (province) {
       case "HN":
         total = 11 * kg + 4;
-        if(kg >= 8)
+        if (kg >= 8)
           total += (kg - 8) * 0.3;
         break;
       case "HCM":
         total = 10 * kg + 4;
-        if(kg >= 8)
+        if (kg >= 8)
           total += (kg - 8) * 0.3;
         break;
       default:
         total = 11 * kg + 8;
-        if(kg >= 8)
+        if (kg >= 8)
           total += (kg - 8) * 0.5;
         break;
     }
@@ -259,12 +258,11 @@
         return;
       }
       total += 3;
-      if(dist >= 4)
+      if (dist >= 4)
         total += 0.5 * dist;
     }
 
-    total += Number($('#plus-fee').val());
-    // console.log(total);
+    total += 0.1 * Number($('#special-item').val());
 
     total = Math.round(total * 10) / 10;
 
