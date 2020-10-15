@@ -9,8 +9,8 @@ def get_provinces():
     return [('Hà Nội', 'HN'), ('TP Hồ Chí Minh', 'HCM'), ('Khác', 'OTHER')]
 
 def distance(lat2, lon2):
-    lat1 = -33.91991
-    lon1 = 151.03125
+    lat1 = -33.9200099
+    lon1 = 151.0439233
     p = pi/180
     a = 0.5 - cos((lat2-lat1)*p)/2 + cos(lat1*p) * \
         cos(lat2*p) * (1-cos((lon2-lon1)*p))/2
@@ -43,5 +43,7 @@ def generate_suburbs_json():
     ret['data'] = suburbs
     with open('data/generated_suburbs.json', 'w') as fp:
         json.dump(ret, fp)
+
+# generate_suburbs_json()
 
 

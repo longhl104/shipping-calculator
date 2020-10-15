@@ -229,19 +229,21 @@
     }
     switch (province) {
       case "HN":
-        total = 11 * kg;
+        total = 11 * kg + 4;
+        if(kg >= 8)
+          total += (kg - 8) * 0.3;
         break;
       case "HCM":
-        total = 10 * kg;
+        total = 10 * kg + 4;
+        if(kg >= 8)
+          total += (kg - 8) * 0.3;
         break;
       default:
-        if(kg < 8)
-          total = 8
-        else
-          total = 8 + 0.5 * (kg - 8);
+        total = 11 * kg + 8;
+        if(kg >= 8)
+          total += (kg - 8) * 0.5;
         break;
     }
-    console.log(total);
 
     var btc = $('#bring-to-check').is(':checked');
     var puc = $('#pick-up-check').is(':checked');
@@ -255,9 +257,13 @@
         alert("Hãy chọn suburb!");
         return;
       }
-      if (kg < 10.0 && dist[0] > 10.0)
-        total += 3 + 0.5 * dist[0];
+      total += 3;
+      if(dist >= 4)
+        total += 0.5 * dist;
     }
+
+    total += $('#plus-fee').val();
+
     $("#total-fee").val('$' + total);
     alert("Tổng phí bạn cần trả: $" + total);
   });
