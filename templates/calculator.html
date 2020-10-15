@@ -263,6 +263,7 @@
     }
 
     total += $('#plus-fee').val();
+    total = Math.round(total * 10) / 10;
 
     $("#total-fee").val('$' + total);
     alert("Tổng phí bạn cần trả: $" + total);
