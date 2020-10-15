@@ -8,13 +8,15 @@ from math import cos, asin, sqrt, pi
 def get_provinces():
     return [('Hà Nội', 'HN'), ('TP Hồ Chí Minh', 'HCM'), ('Khác', 'OTHER')]
 
-def distance(lat2, lon2):
-    lat1 = -33.9200099
-    lon1 = 151.0439233
+
+def distance(lat1, lon1, lat2, lon2):
+    # lat1 = -33.9200099
+    # lon1 = 151.0439233
     p = pi/180
     a = 0.5 - cos((lat2-lat1)*p)/2 + cos(lat1*p) * \
         cos(lat2*p) * (1-cos((lon2-lon1)*p))/2
     return int(12742 * asin(sqrt(a)))
+
 
 def get_suburbs():
     ret = []
@@ -27,6 +29,7 @@ def get_suburbs():
 # HELPER functions below #######################################
 ################################################################
 
+
 def generate_suburbs_json():
     ret = {}
     suburbs = []
@@ -36,14 +39,23 @@ def generate_suburbs_json():
             d = {}
             if entry['statistic_area'] == 'Greater Sydney':
                 d['suburb'] = entry['suburb']
-                d['dist'] = distance(entry['lat'], entry['lng'])
+                d['dist_bankstown'] = distance(
+                    -33.9200099,
+                    151.0439233,
+                    entry['lat'],
+                    entry['lng']
+                )
+                d['dist_cabrammatta'] = distance(
+                    -33.8945914,
+                    150.9369336,
+                    entry['lat'],
+                    entry['lng']
+                )
                 suburbs += [d]
-    
+
     suburbs = sorted(suburbs, key=lambda i: i['suburb'])
     ret['data'] = suburbs
     with open('data/generated_suburbs.json', 'w') as fp:
         json.dump(ret, fp)
 
-# generate_suburbs_json()
-
-
+generate_suburbs_json()
