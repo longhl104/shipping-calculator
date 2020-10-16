@@ -1,20 +1,24 @@
-var items;
+var items = [];
 
 $(document).ready(function () {
     $("#receive_select").change(function () {
-        if ($(this).val() === "Bankstown") {
-            console.log('bankstown')
-            $(".dist_bankstown").show();
-            $(".dist_cabramatta").hide();
-            items = document.getElementsByClassName("dist_bankstown");
-                     $("#dropdown_suburbs").text("Chọn suburb");
-
+        if ($(this).val() === null) {
+            $("input.pickup-check").attr("disabled", true);
+            $("#dropdown_suburbs").hide();
         } else {
-            $(".dist_bankstown").hide();
-            $(".dist_cabramatta").show();
-            items = document.getElementsByClassName("dist_cabramatta");
-                     $("#dropdown_suburbs").text("Chọn suburb");
-
+            $("input.pickup-check").removeAttr("disabled");
+            $("#dropdown_suburbs").text("Chọn suburb");
+            $("#dropdown_suburbs").show();
+            if ($(this).val() === "Bankstown") {
+                // console.log('bankstown')
+                $(".dist_bankstown").show();
+                $(".dist_cabramatta").hide();
+                items = document.getElementsByClassName("dist_bankstown");
+            } else if ($(this).val() === "Cabramatta") {
+                $(".dist_bankstown").hide();
+                $(".dist_cabramatta").show();
+                items = document.getElementsByClassName("dist_cabramatta");
+            }
         }
     }).change();
 
@@ -35,7 +39,6 @@ window.addEventListener("input", function () {
 //If it does show the symbol, else hide it
 function filter(word) {
     let length = items.length;
-    let collection = [];
     let hidden = 0;
     for (let i = 0; i < length; i++) {
         if (items[i].value.toLowerCase().startsWith(word)) {
