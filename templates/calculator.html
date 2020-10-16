@@ -200,7 +200,12 @@
     var btc = $('#bring-to-check').is(':checked');
     var puc = $('#pick-up-check').is(':checked');
     if (btc == false && puc == false) {
-      alert("Hãy chọn chi nhánh gửi hàng!");
+      let message;
+      if ($("#receive_select").val() === null)
+        message = "Hãy chọn chi nhánh gửi hàng!";
+      else
+        message = "Bạn mang đồ tới chi nhánh hay chúng tôi đến nhà bạn pickup?";
+      alert(message);
       return;
     }
     if (puc == true) {
