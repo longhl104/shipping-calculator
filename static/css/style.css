@@ -5,3 +5,18 @@
 .dropdown-item.suburb-field {
     padding: 0 0.25rem;
 }
+
+.dropdown-menu {
+    max-height: 10rem;
+    overflow-y: auto;
+}
+
+img.mx-auto.rounded {
+    max-width: 200px;
+    display: block;
+}
+
+.container.bg-light {
+    max-width: 800px;
+    min-width: 325px;
+}

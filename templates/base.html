@@ -16,13 +16,6 @@
 			type="image/png"
 			href="{{ url_for('static', filename='images/icon.png') }}"
 		/>
-
-		<style>
-			.dropdown-menu {
-				max-height: 10rem;
-				overflow-y: auto;
-			}
-		</style>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<title>{% block title %}{% endblock %} - Universe Phoenix</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -54,7 +47,7 @@
 				<div class="col-md-3">
 					<img
 						src="{{ url_for('static', filename='images/icon.png') }}"
-						class="w-100 mx-auto rounded"
+						class="mx-auto rounded"
 						alt="icon"
 					/>
 				</div>
