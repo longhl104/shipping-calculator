@@ -19,4 +19,6 @@ img.mx-auto.rounded {
 .container.bg-light {
     max-width: 800px;
     min-width: 325px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
