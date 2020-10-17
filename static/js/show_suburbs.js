@@ -9,6 +9,7 @@ $(document).ready(function () {
             $("input.pickup-check").removeAttr("disabled");
             $("#dropdown_suburbs").text("Chọn suburb");
             $("#dropdown_suburbs").show();
+            $('#empty').hide();
             if ($(this).val() === "Bankstown") {
                 // console.log('bankstown')
                 $(".dist_bankstown").show();
@@ -21,7 +22,6 @@ $(document).ready(function () {
             }
         }
     }).change();
-
 });
 
 

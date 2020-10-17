@@ -1,5 +1,6 @@
 {% extends "base.html" %} {% block title %}Homepage{% endblock %} {% block head
 %} {{ super() }}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/calculator.css') }}" />
 {% endblock %} {% block content %}
 <form>
   <div class="form-row">
@@ -54,7 +55,7 @@
                   value="{{suburb['suburb']}} ({{suburb['dist_cabrammatta']}} km)" />
                 {% endfor %}
               </div>
-              <div id="empty" class="dropdown-header">No suburb found</div>
+              <div id="empty" class="dropdown-header">Suburb không tồn tại</div>
             </div>
           </span>
         </label>
