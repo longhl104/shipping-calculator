@@ -9,3 +9,12 @@ img.mx-auto.rounded {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+.bg-primary {
+    background-color: #feecc4 !important;
+}
+
+.navbar-nav>li {
+    padding-left: 30px;
+    padding-right: 30px;
+}

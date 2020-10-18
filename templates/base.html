@@ -29,7 +29,15 @@
 
 	<body>
 		<div class="container bg-light">
-			<nav class="navbar navbar-expand navbar-dark bg-primary">
+			<nav class="navbar navbar-expand navbar-light bg-primary">
+				<a class="navbar-brand" href="#">
+					<img
+						src="{{ url_for('static', filename='images/icon.png') }}"
+						width="30"
+						height="30"
+						alt=""
+					/>
+				</a>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item {{nav[0]}}">
@@ -44,17 +52,8 @@
 				</div>
 			</nav>
 			<div class="container">
-				<div class="row align-items-center m-2">
-					<div class="col-md-3">
-						<img
-							src="{{ url_for('static', filename='images/icon.png') }}"
-							class="mx-auto rounded"
-							alt="icon"
-						/>
-					</div>
-					<div class="col-md-9">
-						<h1 class="text-center">The Universe Phoenix</h1>
-					</div>
+				<div class="align-items-center m-2">
+					<h1 class="text-center">The Universe Phoenix</h1>
 				</div>
 				{% block content %}{% endblock %}
 			</div>
