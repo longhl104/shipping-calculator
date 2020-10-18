@@ -1,30 +1,5 @@
 var items = [];
 
-$(document).ready(function () {
-    $("#receive_select").change(function () {
-        if ($(this).val() === null) {
-            $("input.pickup-check").attr("disabled", true);
-            $("#dropdown_suburbs").hide();
-        } else {
-            $("input.pickup-check").removeAttr("disabled");
-            $("#dropdown_suburbs").text("Chọn suburb");
-            $("#dropdown_suburbs").show();
-            $('#empty').hide();
-            if ($(this).val() === "Bankstown") {
-                // console.log('bankstown')
-                $(".dist_bankstown").show();
-                $(".dist_cabramatta").hide();
-                items = document.getElementsByClassName("dist_bankstown");
-            } else if ($(this).val() === "Cabramatta") {
-                $(".dist_bankstown").hide();
-                $(".dist_cabramatta").show();
-                items = document.getElementsByClassName("dist_cabramatta");
-            }
-        }
-    }).change();
-});
-
-
 //Find the input search box
 let search = document.getElementById("searchSuburb");
 

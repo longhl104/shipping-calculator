@@ -1,6 +1,7 @@
 {% extends "base.html" %} {% block title %}Homepage{% endblock %} {% block head
 %} {{ super() }}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/calculator.css') }}" />
+<script type="text/javascript" src="{{ url_for('static', filename='js/calculator.js') }}"></script>
 {% endblock %} {% block content %}
 <form>
   <div class="form-row">
@@ -90,8 +91,13 @@
         <button type="button" class="btn btn-primary" id="submit">Tính</button>
       </div>
       <div class="form-group col-sm-10">
-        <label for="total-fee">Tổng:</label>
-        <input type="text" class="form-control" id="total-fee" placeholder="Tổng phí" name="plus-fee" disabled />
+        <div class="from-row">
+          <label for="total-fee">Tổng:</label>
+          <input type="text" class="form-control" id="total-fee" placeholder="Tổng phí" name="plus-fee" disabled />
+        </div>
+        <div class="form-row">
+          <p id="explanation"></p>
+        </div>
       </div>
     </div>
   </div>
@@ -104,24 +110,6 @@
 
 <script type="text/javascript" src="{{ url_for('static', filename='js/show_suburbs.js') }}"></script>
 <script type="text/javascript" src="{{ url_for('static', filename='js/bring_to_check_box.js') }}"></script>
-
-<!-- add item script -->
-<!-- <script>
-  $(document).ready(function () {
-    $("#add-item").click(function () {
-      var val = $("#item").val();
-      if (val && val.trim().length > 0) {
-        $("#item-list").append(
-          '<li class="list-group-item">' +
-          val +
-          '<span class = "w-50 float-right">$<input id="special-item" class="w-75 ml-1" type="number" placeholder="giá trị"></input> <span class="close ml-1">&times;</span></span></li>'
-        );
-        $("#item").val("");
-      }
-      $("#item").focus();
-    });
-  });
-</script> -->
 
 <script>
   $("#item").keypress(function (event) {
@@ -158,42 +146,51 @@
     $(".pickup-check").not(this).prop("checked", false);
   });
 </script>
-<!-- Delete item script -->
-<script>
-  $(document).on("click", ".close", function () {
-    $(this).closest("li").remove();
-  });
-</script>
 
 <!-- Submit script -->
 <script>
   $("#submit").click(function () {
+    let exp_details = "";
     var total = 0.0;
     var kg = $("#kg").val();
     if (kg == 0) {
       alert("Hãy nhập đúng số kg!");
+      $("#kg").focus();
       return;
     }
     var province = $("#province").val();
     if (province == null) {
       alert("Hãy chọn tỉnh/thành phố!");
+      $("#province").focus();
       return;
     }
     switch (province) {
       case "HN":
         total = 11 * kg + 4;
-        if (kg >= 8)
-          total += (kg - 8) * 0.3;
+        exp_details += `+ Về Hà Nội: $11 \\times ${kg}kg + $4 (phí giao tận nơi) = [strong]$${total}[/strong]\n`;
+        if (kg > 8) {
+          let delta = (kg - 8) * 0.3;
+          total += delta;
+          exp_details += `+ [strong]$${delta}[/strong]: Cộng thêm do số kg > 8 (thêm 30 cent mỗi kg thêm)\n`;
+        }
         break;
       case "HCM":
         total = 10 * kg + 4;
-        if (kg >= 8)
-          total += (kg - 8) * 0.3;
+        exp_details += `+ Về TP HCM: $10 \\times ${kg}kg + $4 (phí giao tận nơi) = [strong]$${total}[/strong]\n`;
+        if (kg > 8) {
+          let delta = (kg - 8) * 0.3;
+          total += delta;
+          exp_details += `+ [strong]$${delta}[/strong]: Cộng thêm do số kg > 8 (thêm 30 cent mỗi kg thêm)\n`;
+        }
         break;
       default:
         total = 11 * kg + 8;
-        if (kg >= 8)
+        exp_details += `+ Về các địa phương khác ngoài Hà Nội và TP HCM: $11 \\times ${kg}kg + $8 (phí giao tận nơi) = [strong]$${total}\n[/strong]`;
+        if (kg > 8) {
+          let delta = (kg - 8) * 0.5;
           total += (kg - 8) * 0.5;
+          exp_details += `+ [strong]$${delta}[/strong]: Cộng thêm do số kg > 8 (thêm 50 cent mỗi kg thêm)\n`;
+        }
         break;
     }
 
@@ -213,19 +210,34 @@
       let dist = $('#dropdown_suburbs').text().match(/\d+/);
       if (dist == null) {
         alert("Hãy chọn suburb!");
+        $('#dropdown_suburbs').focus();
         return;
       }
       total += 3;
-      if (dist >= 4)
-        total += 0.5 * dist;
+      exp_details += `+ [strong]$3[/strong] (phí pickup tận nhà) `;
+      if (dist >= 4) {
+        let delta = 0.5 * dist;
+        total += delta;
+        exp_details += `+ [strong]$${delta}[/strong] (= $0.5 \\times ${dist}km khoảng cách từ chi nhánh tới điểm địa chỉ pickup)\n`;
+      }
     }
 
-    total += 0.1 * Number($('#special-item').val());
+    let special_item = Number($('#special-item').val());
+    let delta = special_item * 0.1;
+    total += delta;
+    if (delta > 0)
+      exp_details += `+ Phí bảo hiểm: [strong]$${delta}[/strong] = 10% \\times $${special_item}\n`
 
     total = Math.round(total * 10) / 10;
 
     $("#total-fee").val('$' + total);
     alert("Tổng phí bạn cần trả: $" + total);
+
+    // Explanation here
+    let exp = "Phân tích: [strong]" + $("#total-fee").val() + "[/strong] = \n";
+
+    $('#explanation').text(exp + exp_details);
+    $('#explanation').html($('#explanation').html().replace(/\n/g, '<br/>').replace(/\\times/g, '&times;').replace(/\[strong\]/g, '<strong>').replace(/\[\/strong\]/g, '</strong>'));
   });
 </script>
 {% endblock %}
