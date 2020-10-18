@@ -234,7 +234,7 @@
     alert("Tổng phí bạn cần trả: $" + total);
 
     // Explanation here
-    let exp = "Phân tích: [strong]" + $("#total-fee").val() + "[/strong] = \n";
+    let exp = "Mô tả: [strong]" + $("#total-fee").val() + "[/strong] = \n";
 
     $('#explanation').text(exp + exp_details);
     $('#explanation').html($('#explanation').html().replace(/\n/g, '<br/>').replace(/\\times/g, '&times;').replace(/\[strong\]/g, '<strong>').replace(/\[\/strong\]/g, '</strong>'));
