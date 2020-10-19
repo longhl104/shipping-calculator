@@ -35,16 +35,35 @@ $(document).ready(function () {
 
 window.onbeforeunload = function () {
     localStorage.setItem('kg', $('#kg').val());
+    localStorage.setItem('province', $('#province').val());
+    localStorage.setItem('receive_select', $('#receive_select').val());
+    localStorage.setItem('bring_to_check', $('#bring-to-check').is(':checked'));
+    localStorage.setItem('pick_up_check', $('#pick-up-check').is(':checked'));
     localStorage.setItem('special_item', $('#special-item').val());
+    localStorage.setItem('dropdown_suburbs', $('#dropdown_suburbs').text());
     localStorage.setItem('total-fee', $('#total-fee').val());
 };
 
 window.onload = function () {
     var kg = localStorage.getItem('kg');
+    var province = localStorage.getItem('province');
+    var receive_select = localStorage.getItem('receive_select');
+    var bring_to_check = localStorage.getItem('bring_to_check');
+    var pick_up_check = localStorage.getItem('pick_up_check');
     var special_item = localStorage.getItem('special_item');
+    var dropdown_suburbs = localStorage.getItem('dropdown_suburbs');
     var total_fee = localStorage.getItem('total-fee');
     if (kg > 0)
         $('#kg').val(kg);
+    if (province !== 'null')
+        $('#province').val(province);
+    else $('#province').val('').trigger('change');
+    if (receive_select !== 'null') {
+        $('#receive_select').val(receive_select);
+        receive_select_event(bring_to_check, pick_up_check, dropdown_suburbs);
+    } else {
+        $('#receive_select').val('').trigger('change');
+    }
 
     if (special_item > 0) $('#special-item').val(special_item);
 
