@@ -40,7 +40,8 @@ def transaction():
 def currency_rate():
     active_nav(2)
     rate = database.get_currency_rates()
-    return(render_template('currency.html', session=session, page=page, nav=nav, rate=rate))
+    time = database.get_current_time()
+    return(render_template('currency.html', session=session, page=page, nav=nav, rate=rate, time=time))
 
 
 
