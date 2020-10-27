@@ -71,9 +71,7 @@ def get_currency_rates():
     return ret
 
 def get_current_time():
-    now = datetime.now()
-    timezone = pytz.timezone("Australia/Sydney")
-    d_aware = timezone.localize(now)
-    # timezone
+    sydney = pytz.timezone('Australia/Sydney')
+    d_aware = datetime.now(sydney)
     return d_aware.strftime("%H:%M %d/%m/%Y")
 
