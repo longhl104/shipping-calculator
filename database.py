@@ -2,6 +2,7 @@ import json
 from math import cos, asin, sqrt, pi
 from scrapper import msb_scrapper
 from datetime import datetime
+import pytz
 
 # response = requests.get("https://apis.haravan.com/com/countries/#{country_id}/provinces.json")
 # print(response.status_code)
@@ -71,4 +72,8 @@ def get_currency_rates():
 
 def get_current_time():
     now = datetime.now()
-    return now.strftime("%H:%M %d/%m/%Y")
+    timezone = pytz.timezone("Australia/Sydney")
+    d_aware = timezone.localize(now)
+
+    return d_aware.strftime("%H:%M %d/%m/%Y")
+
