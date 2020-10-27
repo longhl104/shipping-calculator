@@ -1,4 +1,3 @@
-import requests
 import pandas as pd
 
 
@@ -16,5 +15,9 @@ val = table.loc[table['Ngoại tệ'] == 'AUD'].values
 
 mua_ck = val[0][3]
 ban_tm = val[0][4]
+
+both = mua_ck, ban_tm
+
+# print(both)
 
 # print(mua_ck, ban_tm)

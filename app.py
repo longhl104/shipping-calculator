@@ -1,8 +1,8 @@
-from flask import *
+from flask import Flask, render_template
 import configparser
 import database
 
-num_pages = 2
+num_pages = 3
 
 user_details = {}  # User details kept for us
 session = {}  # Session information (logged in state)
@@ -36,7 +36,18 @@ def transaction():
     active_nav(1)
     return(render_template('transaction.html', session=session, page=page, nav=nav))
 
+@app.route('/currency-rate')
+def currency_rate():
+    active_nav(2)
+    rate = database.get_currency_rates()
+    return(render_template('currency.html', session=session, page=page, nav=nav, rate=rate))
+
+
 
 @app.route('/service-worker.js')
 def service_worker():
     return app.send_static_file('service-worker.js')
+
+@app.errorhandler(404)
+def not_found(e):
+    return render_template("404.html", session=session, page=page, nav=nav)

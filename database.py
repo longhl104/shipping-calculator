@@ -1,6 +1,6 @@
 import json
 from math import cos, asin, sqrt, pi
-from scrapper.msb_scrapper import mua_ck, ban_tm
+from scrapper import msb_scrapper
 
 # response = requests.get("https://apis.haravan.com/com/countries/#{country_id}/provinces.json")
 # print(response.status_code)
@@ -62,3 +62,8 @@ def generate_suburbs_json():
 # generate_suburbs_json()
 
 # print(mua_ck, ban_tm)
+
+def get_currency_rates():
+    ret = {}
+    ret['msb'] = msb_scrapper.both
+    return ret

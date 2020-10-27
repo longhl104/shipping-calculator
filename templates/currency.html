@@ -1,0 +1,25 @@
+{% extends "base.html" %} {% block title %}Homepage{% endblock %} {% block head
+%} {{ super() }} {% endblock %} {% block content %}
+<h2 class="mt-5">Tỉ giá AUD &rarr; VND (tham khảo)</h2>
+<table class="table">
+	<thead>
+		<tr>
+			<th scope="col">Loại tỷ giá</th>
+			<th scope="col">Chuyển sang Úc</th>
+			<th scope="col">Chuyển về VN</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">MSB</th>
+			<td>{{rate['msb'][0]}}</td>
+			<td>{{rate['msb'][1]}}</td>
+		</tr>
+		<!-- <tr>
+			<th scope="row">TUPS</th>
+			<td>Larry</td>
+			<td>the Bird</td>
+		</tr> -->
+	</tbody>
+</table>
+{% endblock %}
