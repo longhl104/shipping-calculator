@@ -74,6 +74,6 @@ def get_current_time():
     now = datetime.now()
     timezone = pytz.timezone("Australia/Sydney")
     d_aware = timezone.localize(now)
-
+    # timezone
     return d_aware.strftime("%H:%M %d/%m/%Y")
 
