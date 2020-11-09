@@ -17,7 +17,7 @@
 			href="{{ url_for('static', filename='images/icon.png') }}"
 		/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<title>{% block title %}{% endblock %} - Universe Phoenix</title>
+		<title>{% block title %}{% endblock %} - The Universe Phoenix Services</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		{% endblock %}
 		<script
@@ -61,24 +61,30 @@
 							>
 						</li>
 						<li class="nav-item {{nav[2]}}">
-							<a class="nav-link" href="{{url_for('currency_rate')}}"
-								>Tỉ giá</a
-							>
+							<a class="nav-link" href="{{url_for('currency_rate')}}">Tỉ giá</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
 			<div class="container">
 				<div class="align-items-center m-2">
-					<h1 class="text-center">The Universe Phoenix</h1>
+					<h1 class="text-center">The Universe Phoenix Services</h1>
 				</div>
 				{% block content %}{% endblock %}
+				<!-- <iframe
+					id="inlineFrameExample"
+					title="Inline Frame Example"
+					width="300"
+					height="200"
+					src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
+				>
+				</iframe> -->
 			</div>
 		</div>
 		<footer class="container-fluid text-center"></footer>
 		<script
-			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
 			crossorigin="anonymous"
 		></script>
 		<script
