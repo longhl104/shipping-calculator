@@ -17,7 +17,9 @@
 			href="{{ url_for('static', filename='images/icon.png') }}"
 		/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<title>{% block title %}{% endblock %} - The Universe Phoenix Services</title>
+		<title>
+			{% block title %}{% endblock %} - The Universe Phoenix Services
+		</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		{% endblock %}
 		<script
@@ -79,12 +81,33 @@
 					src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik"
 				>
 				</iframe> -->
+				<footer class="p-1 border border-top" id="footer">
+					<div class="row">
+						<div class="col">
+							<p class="mb-0"><b>Account Details</b></p>
+							<p class="mb-0">Account Name: Hai Vuong</p>
+							<p class="mb-0">BSB: 062-948</p>
+							<p class="mb-0">Account No: 1432-7260</p>
+							<p class="mb-0">
+								Beneficiary Bank: Commonwealth Bank Martin Place
+							</p>
+							<p class="mb-0">Currency: AUD$</p>
+						</div>
+						<div class="col text-right">
+							<p class="mb-0">ABN: 56 693 327 812</p>
+							<p class="mb-0">Bankstown NSW 2200</p>
+							<p class="mb-0">+61 404 716 159</p>
+							<p class="mb-0">Email: mr.quytaro@gmail.com</p>
+							<p class="mb-0">Web: fb.com/mr.quytaro</p>
+						</div>
+					</div>
+				</footer>
 			</div>
 		</div>
-		<footer class="container-fluid text-center"></footer>
+
 		<script
-		src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
 			crossorigin="anonymous"
 		></script>
 		<script
