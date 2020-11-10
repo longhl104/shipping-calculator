@@ -12,22 +12,25 @@
 				type="text"
 				class="form-control"
 				id="sender-name"
-				placeholder="Nhập tên"
+        placeholder="Nhập tên"
+        required
 			/>
 			<label for="sender-phone">Số điện thoại:</label>
 			<input
 				type="text"
 				class="form-control"
 				id="sender-phone"
-				placeholder="Nhập số điện thoại"
+        placeholder="Nhập số điện thoại"
+        required
 			/>
 			<label for="sender-address">Địa chỉ người gửi:</label>
-			<input
-				type="text"
+			<textarea 
+        rows="2"
 				class="form-control"
 				id="sender-address"
-				placeholder="Nhập địa chỉ"
-			/>
+        placeholder="Nhập địa chỉ"
+        required
+			></textarea>  
 		</div>
 
 		<div class="form-group col-md border border-danger p-2 mx-1" id="receiver-info">
@@ -36,118 +39,25 @@
 				type="text"
 				class="form-control"
 				id="receiver-name"
-				placeholder="Nhập tên"
+        placeholder="Nhập tên"
+        required
 			/>
 			<label for="receiver-phone">Số điện thoại:</label>
 			<input
 				type="text"
 				class="form-control"
 				id="receiver-phone"
-				placeholder="Nhập số điện thoại"
+        placeholder="Nhập số điện thoại"
+        required
 			/>
 			<label for="receiver-address">Địa chỉ người nhận:</label>
-			<input
-				type="text"
+			<textarea 
+        rows="2"
 				class="form-control"
-				id="receiver-address"
-				placeholder="Nhập địa chỉ"
-			/>
+				id="sender-address"
+        placeholder="Nhập địa chỉ"
+        required
+			></textarea>  
 		</div>
 	</div>
-
-	<div class="form-group">
-		<label for="kg">Bạn muốn gửi bao nhiêu kg?</label>
-		<input
-			type="number"
-			step="0.1"
-			class="form-control"
-			id="kg"
-			placeholder="Nhập số kg"
-			name="kg"
-		/>
-	</div>
-
-	<div class="form-group">
-		<label for="province">Về Tỉnh/Thành Phố:</label>
-		<select class="form-control" id="province" name="province">
-			<option value="" disabled selected>Chọn Tỉnh/Thành Phố</option>
-			{% for province in provinces %}
-			<option value="{{province}}">{{province}}</option>
-			{% endfor %}
-		</select>
-	</div>
-
-	<div class="form-group">
-		<label for="item">Bạn có đồ giá trị cần khai báo?</label>
-		<div>
-			<ol></ol>
-		</div>
-		<div class="row">
-			<div class="col-md-10">
-				<input
-					type="text"
-					class="form-control"
-					id="item"
-					placeholder="Nhập vào đây (nếu có)"
-				/>
-			</div>
-			<div class="col-md-offset-3 col-md-2 text-center">
-				<input
-					type="button"
-					class="btn btn-secondary mt-1 mt-md-0"
-					id="add-item"
-					value="Thêm đồ"
-				/>
-			</div>
-		</div>
-	</div>
-
-	<div class="form-group">
-		<!-- Date input -->
-		<label class="control-label" for="date">Date</label>
-		<input
-			class="form-control"
-			id="date"
-			name="date"
-			placeholder="MM/DD/YYY"
-			type="text"
-		/>
-	</div>
-
-	<button type="submit" class="btn btn-primary" id="submit">Tính</button>
-</form>
-
-<script>
-	$(document).ready(function () {
-		$("#add-item").click(function () {
-			var val = $("#item").val();
-			if (val && val.trim().length > 0) {
-				$("ol").append("<li>" + val + "</li>");
-				$("#item").val("");
-			}
-		});
-	});
-</script>
-<script>
-	$("#item").keypress(function (event) {
-		var keycode = event.keyCode ? event.keyCode : event.which;
-		if (keycode == "13") {
-			$("#add-item").click();
-		}
-		event.stopPropagation();
-	});
-</script>
-<script>
-	$("form input").keypress(function (e) {
-		if (e.keyCode == 13) {
-			var inputs = $(this).parents("form").eq(0).find(":input");
-			if (inputs[inputs.index(this) + 1] != null) {
-				inputs[inputs.index(this) + 1].focus();
-			}
-			console.log(inputs);
-			e.preventDefault();
-			return false;
-		}
-	});
-</script>
 {% endblock %}
